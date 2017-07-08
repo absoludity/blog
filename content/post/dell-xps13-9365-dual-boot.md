@@ -1,13 +1,17 @@
-Title: Dual booting the Dell XPS13 (9365) with linux
-Date: 2017-04-30 19:50
-Category: Tutorials
+---
+title: Dual booting the Dell XPS13 (9365) with linux
+description: "Here we go"
+date: 2017-04-30T19:50:00+10:00
+tags: [ "ubuntu", "linux", "dell", "tutorial" ]
+type: post
+---
 
 I recently purchased a [Dell XPS13 (9365)][dell-xps13] (thanks to
 [Bitnami][bitnami] for whom I now work) which comes with Windows 10 preinstalled. I was
 aware when purchasing that [suspend on Linux is not yet working][suspend-issue]
 (thanks [David Farrell][david-farrell]), as well as other functionality
 (autorotate, pen integration etc.) and so was keen to have a few options to
-work on this machine:
+work on this machine<!--more-->:
 
 * Running Ubuntu within VirtualBox.
 * Dual booting to Ubuntu/Linux (once the suspend issues fixed, I'll be using this most of the time)
@@ -22,7 +26,12 @@ but none of them had a complete picture. Here's what I did:
 
 With that done, I was able to install Ubuntu while still dual booting. I am
 currently booting Windows and working within an Ubuntu 17.04 VirtualBox image
-as I move around quite a bit during my day so suspend is critical, but 
+as I move around quite a bit and depend on suspend/resume. But the difference
+between running in a VM and on the metal is noticeable so I'll be watching the
+suspend bug and testing newer kernel releases.
+
+*Edit July 2017*: For the short-term, it actually works fine to just update my Ubuntu power settings
+so that the computer doesn't suspend when the lid is closed.
 
 [dell-xps13]: http://www.dell.com/au/p/xps-13-9365-2-in-1-laptop/pd?oc=z511203au&model_id=xps-13-9365-2-in-1-laptop
 [bitnami]: https://bitnami.com/
