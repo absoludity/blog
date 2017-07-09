@@ -2,6 +2,7 @@ baseURL = "https://liveandletlearn.net/"
 languageCode = "en-us"
 title = "Live and let Learn"
 theme = "beautifulhugo"
+disqusShortname = "liveandletlearn"
 
 [Params]
   subtitle = "Living and learning together"
