@@ -2,7 +2,7 @@
 title: Dual booting the Dell XPS13 (9365) with linux
 description: "Here we go"
 date: 2017-04-30T19:50:00+10:00
-tags: [ "ubuntu", "linux", "dell", "tutorial" ]
+tags: [ "ubuntu", "linux", "dell", "tutorial", "bitnami" ]
 type: post
 ---
 
