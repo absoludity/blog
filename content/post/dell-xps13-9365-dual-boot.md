@@ -8,9 +8,11 @@ type: post
 I recently purchased a [Dell XPS13 (9365)][dell-xps13] (thanks to
 [Bitnami][bitnami] for whom I now work) which comes with Windows 10 preinstalled. I was
 aware when purchasing that [suspend on Linux is not yet working][suspend-issue]
-(thanks [David Farrell][david-farrell]), as well as other functionality
-(autorotate, pen integration etc.) and so was keen to have a few options to
+(thanks [David Farrell][david-farrell]. As of [Aug 2017 suspend is fixed](#suspendfix),
+see below), as well as other functionality (autorotate, pen integration etc.)
+and so was keen to have a few options to
 work on this machine<!--more-->:
+
 
 * Running Ubuntu within VirtualBox.
 * Dual booting to Ubuntu/Linux (once the suspend issues fixed, I'll be using this most of the time)
@@ -32,6 +34,25 @@ suspend bug and testing newer kernel releases.
 *Edit July 2017*: For the short-term, it actually works fine to just update my Ubuntu power settings
 so that the computer doesn't suspend when the lid is closed.
 
+### <a name="suspendfix"></a>Suspend fix
+*Edit August 2017*: Suspend now works perfectly with the [4.13 rc2 Linux kernel][413_kernel] and later.
+As one person mentioned on the bug report, after installing the 4.13 rc2 kernel I also installed
+`sysfsutils` and added the following file to my system:
+
+```
+$ cat /etc/sysfs.d/suspend_dell_9365.conf
+# Changes from https://bugzilla.kernel.org/show_bug.cgi?id=192591
+
+# Use s2idle (not deep) for suspend.
+power/mem_sleep = s2idle
+
+# Enable key press to wakeup
+devices/platform/i8042/serio0/power/wakeup = enabled
+
+# Disable heartbeat wakeups during suspend.
+module/acpi/parameters/ec_no_wakeup = Y
+```
+
 [dell-xps13]: http://www.dell.com/au/p/xps-13-9365-2-in-1-laptop/pd?oc=z511203au&model_id=xps-13-9365-2-in-1-laptop
 [bitnami]: https://bitnami.com/
 [bitnami-hiring]: https://bitnami.com/careers
@@ -42,3 +63,4 @@ so that the computer doesn't suspend when the lid is closed.
 [resize]: http://www.download3k.com/articles/How-to-shrink-a-disk-volume-beyond-the-point-where-any-unmovable-files-are-located-00432
 [ahci]: https://www.tenforums.com/drivers-hardware/15006-attn-ssd-owners-enabling-ahci-mode-after-windows-10-installation.html
 [nvme]: https://en.wikipedia.org/wiki/NVM_Express
+[413_kernel]: http://kernel.ubuntu.com/~kernel-ppa/mainline/v4.13-rc4/
