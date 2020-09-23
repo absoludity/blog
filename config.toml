@@ -13,6 +13,12 @@ disqusShortname = "liveandletlearn"
   rss = true
   comments = true
 
+[markup]
+  [markup.highlight]
+    lineNos = true
+    noClasses = false
+    style = "monokai"
+
 [Author]
   name = "Michael Nelson"
   email = "absoludity+lll@gmail.com"

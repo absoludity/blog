@@ -27,8 +27,8 @@ so that users can only deploy apps to the workload clusters.
 
 This series of two post details the steps that I took to make that happen with the latest Kubeapps running on a TKG
 management cluster (on AWS) configured to allow users to deploy applications to the
-workload clusters. Though details will differ, a similar setup works on other non-TKG multicluster setups as well.
-This post focuses on the TKG setup required for workload clusters using OpenID Connect, while the followup post will detail the Kubeapps installation and configuration.
+workload clusters. Though details will differ, a similar configuration works on other non-TKG multicluster setups as well.
+This post focuses on the TKG setup required for workload clusters using OpenID Connect, while the followup post details the [Kubeapps multicluster installation and configuration]( {{< relref "kubeapps-on-tkg-management-cluster" >}}).
 
 ## Creating the management cluster
 
@@ -174,7 +174,13 @@ For step 4 you need to know the `<APISERVER_URL>` for the workload cluster. To f
 
 Step 18 (yes, there are that many steps) is the part that is most relevant to us: updating the Dex configuration with the details of the workload cluster. Note that each OIDC-enabled workload cluster that we deploy via TKG will be configured to use its own cluster name as the `client_id` when verifyng the signed `id_tokens` that are sent with a request to the API server. We will be updating this again later with the Kubeapps client id, but for now it's worth noting the format (each client ID has a name and a list of redirect urls).
 
-With the Dex service bounced after updating the config, we can verify the OIDC login is working by following the documentation [Access the OIDC-Enabled Cluster with your IDP credentials](https://docs.vmware.com/en/VMware-Tanzu-Kubernetes-Grid/1.1/vmware-tanzu-kubernetes-grid-11/GUID-manage-instance-connect-oidc-cluster.html).
+With the Dex service bounced after updating the config, we can verify the OIDC login is working by following the documentation [Access the OIDC-Enabled Cluster with your IDP credentials](https://docs.vmware.com/en/VMware-Tanzu-Kubernetes-Grid/1.1/vmware-tanzu-kubernetes-grid-11/GUID-manage-instance-connect-oidc-cluster.html). Note that currently step 3 assumes you are deploying on vSphere. To get the DNS entry for the Gangway service, you will instead need to:
+
+```bash
+kubectl -n tanzu-system-auth get svc
+```
+
+and then access that service at `https://<Gangway LB DNS>`
 
 If everything works as expected then our TKG environment is now correctly configured with Dex on the management cluster as the Identity Provider trusted by the workload clusters, and we're ready to  install Kubeapps on the management cluster!
 
@@ -190,4 +196,4 @@ The only thing to be careful of here is that you're running this command in the 
 
 We'll re-edit the Dex configuration later with a static client for this second workload cluster.
 
-Now onto the Kubeapps installation and configuration! (To be continued)
+Now onto the [Kubeapps multicluster installation and configuration]( {{< relref "kubeapps-on-tkg-management-cluster" >}})!
