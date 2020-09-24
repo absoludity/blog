@@ -37,10 +37,10 @@ authProxy:
   enabled: true
   provider: oidc
   clientID: kubeapps-oauth2-proxy
-  clientSecret: <KUBEAPPS_CLIENT_SECRET>
-  cookieSecret: <KUBEAPPS_COOKIE_SECRET>
+  clientSecret: KUBEAPPS_CLIENT_SECRET
+  cookieSecret: KUBEAPPS_COOKIE_SECRET
   additionalFlags:
-    - --oidc-issuer-url=https://<DEX_SVC_LB_HOSTNAME>
+    - --oidc-issuer-url=https://DEX_SVC_LB_HOSTNAME
     # IMPORTANT: We are overwriting the scope option to include the workload clusters' clientids in the audience.
     - --scope=openid email groups audience:server:client_id:my-oidc-cluster audience:server:client_id:second-oidc-cluster
     # TODO: Update to provide the dex ca via --provider-ca-file and mounting etc.
@@ -53,11 +53,11 @@ authProxy:
 # Configure the two workload clusters
 clusters:
   - name: my-oidc-cluster
-    apiServiceURL: https://<DNS of first workload cluster API Server>:6443
-    certificateAuthorityData: <CA Data for first cluster>
+    apiServiceURL: https://DNS_OF_FIRST_WORKLOAD_CLUSTER_API_SERVER:6443
+    certificateAuthorityData: CA_DATA_FOR_FIRST_WORKLOAD_CLUSTER_API_SERVER
   - name: second-oidc-cluster
-    apiServiceURL: https://<DNS of second workload cluster API server>:6443
-    certificateAuthorityData: <CA Data for second cluster>
+    apiServiceURL: https://DNS_OF_SECOND_WORKLOAD_CLUSTER_API_SERVER:6443
+    certificateAuthorityData: CA_DATA_FOR_SECOND_WORKLOAD_CLUSTER_API_SERVER
 
 ```
 
@@ -97,7 +97,7 @@ vim tkg-extensions-v1.1.0/authentication/dex/aws/oidc/04-cm.yaml
 
 and add a second static client for the second workload cluster (the name must match the name of your second workload cluster, but you don't need any other secret or redirect URIs since we didn't install Gangway on the second workload cluster) and a third static client for the `kubeapps-oauth2-proxy`. Note that the client entry for both clusters are listed as trusted peers of the `kubeapps-oauth2-proxy` client:
 
-```yaml use highlight functionality.
+```yaml {hl_lines=["7-16"]}
     staticClients:
     - id: my-oidc-cluster
       redirectURIs:

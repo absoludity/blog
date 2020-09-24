@@ -17,7 +17,7 @@ disqusShortname = "liveandletlearn"
   [markup.highlight]
     lineNos = true
     noClasses = false
-    style = "monokai"
+    style = "monokailight"
 
 [Author]
   name = "Michael Nelson"
