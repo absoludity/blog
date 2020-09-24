@@ -8,7 +8,7 @@ tags: [ "tutorial", "kubeapps", "tkg", "vmware" ]
 This is part two of a series detailing the steps required to run [Kubeapps](https://kubeapps.com) on a [VMware TKG](https://tanzu.vmware.com/kubernetes-grid) management cluster (on AWS) configured to allow users to deploy applications to multiple
 workload clusters, using the new multicluster support in Kubeapps. Though details will differ, a similar configuration works on other non-TKG multicluster setups as well.
 
-The first post described [setting up your VMware TKG management cluster with two OpenIDConnect-enabled workload clusters]( {{< relref "tanzu-kubernetes-grid-tkg-first-experience" >}}). This post assumes you have your TKG environment setup as described there and focuses on the Kubeapps installation and configuration.
+The first post described [setting up your VMware TKG management cluster with two OpenIDConnect-enabled workload clusters]( {{< relref "tanzu-kubernetes-grid-tkg-first-experience" >}}). This post assumes you have your TKG environment setup as described there and focuses on the Kubeapps installation and configuration. The following video demos the result: {{< youtube id="pzVMZGTK0vU" >}}
 
 ## Prepare a Kubeapps configuration
 

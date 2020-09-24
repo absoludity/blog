@@ -29,6 +29,7 @@ This series of two post details the steps that I took to make that happen with t
 management cluster (on AWS) configured to allow users to deploy applications to the
 workload clusters. Though details will differ, a similar configuration works on other non-TKG multicluster setups as well.
 This post focuses on the TKG setup required for workload clusters using OpenID Connect, while the followup post details the [Kubeapps multicluster installation and configuration]( {{< relref "kubeapps-on-tkg-management-cluster" >}}).
+The following video demos the result: {{< youtube id="pzVMZGTK0vU" >}}
 
 ## Creating the management cluster
 
