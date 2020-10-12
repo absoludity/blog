@@ -5,7 +5,7 @@ draft: false
 tags: [ "paragliding", "manilla" ]
 ---
 
-After years of wanting to fly and months of waiting since deciding to learn, I'm up at [FlyManilla](https://flymanilla.com/) learning to fly a paraglider with 10 other keen wannabe fledglings under the instruction of Godfrey Wenness and two other instructors Bob and Carl. Though I have been looking forward to this for a while and reading as much as I can to prepare, nothing beats being shown the details from years of experience with real equipment that you can touch and try - which is exactly what we've been doing in our first day.
+After years of wanting to fly and months of waiting since deciding to learn, I'm up at [FlyManilla](https://flymanilla.com/) learning to fly a paraglider with 10 other keen wannabe fledglings under the instruction of Godfrey Wenness and two other instructors Bob and Karl. Though I have been looking forward to this for a while and reading as much as I can to prepare, nothing beats being shown the details from years of experience with real equipment that you can touch and try - which is exactly what we've been doing in our first day.
 
 I'm taking notes for my own personal reference and learning, while it's fresh, but it's totally possible I've not remembered correctly and have made mistakes. These are not notes for others to learn from but may give an interested passer-by who is considering a course a good idea about how valuable the course is!
 
@@ -19,7 +19,7 @@ After an initial meet-n-greet session, we headed out with a canopy to go over th
 
 Checking the glider and lines for damage should obviously be done regularly - you are not only the pilot but also the engineer responsible for this flying wing. Starting with the harness attachment point, check the webbing of the risers for any damage - rips or cuts or abrasion. The risers are similar to the seat-belts in a car. Any damage and you should not pass rego.
 
-Then check the [] (screw carabiner) where the lines are joined to the harness, ensuring that each one has a plug fitted so that the lines can't move and suffer abrasion. Then check the threading around the loop of the lines. There's similar threading around the lines at the other end where they join the canopy as well as where the lines split, but there's less chance for abrasion there. After the lines are untangled, check for any kinks or possible damage which can be caused easily in the core of the lines if they get caught on sharp objects, rocks or even tufts of grass during inflation. The lines themselves can be tested for core damage by attaching the risers to a fence or similar and then checking each line for stretch by pulling where they join the canopy. Then check for stress marks where the lines attach to the canopy - which can also happen during inflation when lines are caught.
+Then check the quick-link (triangle screw carabiner) where the lines are joined to the harness, ensuring that each one has a plug fitted so that the lines can't move and suffer abrasion. Then check the threading around the loop of the lines. There's similar threading around the lines at the other end where they join the canopy as well as where the lines split, but there's less chance for abrasion there. After the lines are untangled, check for any kinks or possible damage which can be caused easily in the core of the lines if they get caught on sharp objects, rocks or even tufts of grass during inflation. The lines themselves can be tested for core damage by attaching the risers to a fence or similar and then checking each line for stretch by pulling where they join the canopy. Then check for stress marks where the lines attach to the canopy - which can also happen during inflation when lines are caught.
 
 The canopy is made of rip-stop material - the small squares that you can see in the material, which is great for stopping rips but can't help with other effects, such as that of the sun (which costs around $10/hr in value for your glider). It's trivial to do a rough porosity check of the material by putting your lips to a section of the upper canopy surface and trying to suck air through, then repeating with the lower surface, which gets less sun damage or abrasion damage, to see the difference.
 
@@ -47,7 +47,7 @@ The back protection is useful not only if you're falling close to the ground, bu
 
 Check the webbing of the harness straps every time you fly for damage, cuts, abrasion etc. If you want to know the history of a harness, the seat board is a good place to look (though it'd be replaceable, I assume).
 
-When you take off your helmut always attach it to your shoulder strap so it's never missing when you get to the launch site.
+When you take off your helmet always attach it to your shoulder strap so it's never missing when you get to the launch site.
 
 ## Evening session - forward launches
 
@@ -65,7 +65,7 @@ To stop, apply a little brake to start the wing moving behind, then stop, turn a
 
 ## Bonus session - packing a reserve parachute
 
-In the evening Carl, one of the instructors, was demonstrating how a reserve parachute is repacked. Incredibly systematic process, testing each phase to ensure the chute will inflate as quickly and easily as possible when thrown. I now see why it's worth paying someone $50 to repack the reserve - given your life may depend on it!
+In the evening Karl, one of the instructors, was demonstrating how a reserve parachute is repacked. Incredibly systematic process, testing each phase to ensure the chute will inflate as quickly and easily as possible when thrown. I now see why it's worth paying someone $50 to repack the reserve - given your life may depend on it!
 
 Tomorrow morning we're heading to the training slope to do our first small flights! (only a metre or two off the ground, but practising takeoffs and landing)
 
