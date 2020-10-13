@@ -90,10 +90,24 @@ Though pendular stability is your friend when up high, it can be your enemy near
 
 ### Stalling and wing tucks
 
-TBD (need to finish notes).
+The definition of a stall: when the wing reaches a critical angle of attack where the air changing direction is reduced to the point that the lift produced no longer counteracts the weight. The point at which your glider stalls can be affected by number of obvious and non-obvious factors, such as:
 
+* reducing the air speed by applying the brakes which reduces the amount of air being pushed down so the wing will stall at a smaller anger of attack
+* a higher angle of attack can result in less flow over the wing due to turbulance which reduces the amount of air being moved downwards
+* body weight - a heavier pilot will require more air being pushed down resulting in a stall point at a lower angle of attack
+* wing loading - the weight being felt by the glider will change when turning due to the pilot being accelerated in an arc which therefore requires more air being pushed down to counteract the force, leading to a stall point at a lower angle of attack.
+* porosity of the upper surface of the wing can mean air leaks through so that the flow of air over the wing is disturbed and doesn't follow the surface leading to less air being moved downwards and there fore a stall point at a lower angle of attack.
 
+The angel of attack affects the lift drag and airflow in different ways:
 
+* The lift increases slightly when increasing the angle of attack to a certain point (minimum sink, usually 20% brake) but then decreases after that as the air above the wing becomes much more turbulent causing drag.
+* The drag increases increases continuously as the angle of attack increases.
+* The airflow over the wing goes from smooth/laminar through to rough as the angle of attack increases.
 
+Drag is defined as the force resulting from the disruption of laminar air flow. Drag is the result of changes in airflow.
 
+How does this all apply to us flying a paraglider? A frontal collapse or tuck normally happens only with a negative angle of attack but if you're flying with a low angle of attack (ie. no brakes) turbulent wind can result in a negative angle of attack for part of the wing, causing it to tuck under. In turbulent weather you might apply 0-20% brakes but don't go past the carabiners (30%) for long as the same turbulance can push the front up and effectively stall.
 
+Need to remain active: if the wing goes back, hands up, if the wing goes forward, apply a bit of brake.
+
+Tomorrow if the weather plays along we'll be doing our first solo high flights!
