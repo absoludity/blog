@@ -5,10 +5,11 @@ draft: false
 tags: [ "paragliding", "manilla" ]
 ---
 
-
 ## First flights on the training hill
 
 We started early today, heading straight out to the training hill which sits in the morning sun and so has heated air rising for a nice gently breeze (anabatic flow). We each had a wing matching our size, but all on the [Advance Alpha](https://www.advance.swiss/en/products/paragliders/alpha-7), but the 6 model. Everyone did pretty well, getting off the ground, learning to flare when landing, doing a little bit of steering.
+
+**Disclaimer**: I'm taking notes for my own personal reference and learning while it's fresh, but it's totally possible I've remembered incorrectly and have made mistakes. These are not notes for others to learn from but may give an interested passer-by who is considering a course a good idea about how valuable the course at Manilla is. If you're interested in learning to paraglide, I'd totally recommend this live-in [9-day course at FlyManilla](https://www.flymanilla.com/ManillaParaglidingSchool/tabid/141/Default.aspx) (but have zero experience with any other courses, of course).
 
 ![At the training slope](/img/learning-to-paraglide/training-slope.jpg)
 

@@ -11,6 +11,8 @@ As planned we headed out to the training slope first thing this morning at 8am, 
 
 I was on a slightly bigger glider today (I'm at the top of the full weight range for the 26m2 Alpha 6 which I was on yesterday, and in the middle of the range for the 28m2 Alpha 6). The difference was quite noticeable - I didn't need to run as fast to get off the ground, which also made it easier to avoid accelerating in front of the wing.
 
+**Disclaimer**: I'm taking notes for my own personal reference and learning while it's fresh, but it's totally possible I've remembered incorrectly and have made mistakes. These are not notes for others to learn from but may give an interested passer-by who is considering a course a good idea about how valuable the course at Manilla is. If you're interested in learning to paraglide, I'd totally recommend this live-in [9-day course at FlyManilla](https://www.flymanilla.com/ManillaParaglidingSchool/tabid/141/Default.aspx) (but have zero experience with any other courses, of course).
+
 ![Michael landing on training slope](/img/learning-to-paraglide/michael-landing-on-training-slope.jpg)
 
 Out of the 7 flights that I did on the training slope this morning (and one false start), these are the four things to learning that stand out to me:
@@ -106,7 +108,7 @@ The angel of attack affects the lift drag and airflow in different ways:
 
 Drag is defined as the force resulting from the disruption of laminar air flow. Drag is the result of changes in airflow.
 
-How does this all apply to us flying a paraglider? A frontal collapse or tuck normally happens only with a negative angle of attack but if you're flying with a low angle of attack (ie. no brakes) turbulent wind can result in a negative angle of attack for part of the wing, causing it to tuck under. In turbulent weather you might apply 0-20% brakes but don't go past the carabiners (30%) for long as the same turbulance can push the front up and effectively stall.
+How does this all apply to us flying a paraglider? A frontal collapse or tuck normally happens only with a negative angle of attack but if you're flying with a low angle of attack (ie. no brakes) turbulent wind can result in a negative angle of attack for part of the wing, causing it to tuck under. In turbulent weather you might apply 0-20% brakes but don't go past the carabiners (30%) for long as the same turbulence can push the front up and effectively stall.
 
 Need to remain active: if the wing goes back, hands up, if the wing goes forward, apply a bit of brake.
 

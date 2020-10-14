@@ -7,7 +7,7 @@ tags: [ "paragliding", "manilla" ]
 
 After years of wanting to fly and months of waiting since deciding to learn, I'm up at [FlyManilla](https://flymanilla.com/) learning to fly a paraglider with 10 other keen wannabe fledglings under the instruction of Godfrey Wenness and two other instructors Bob and Karl. Though I have been looking forward to this for a while and reading as much as I can to prepare, nothing beats being shown the details from years of experience with real equipment that you can touch and try - which is exactly what we've been doing in our first day.
 
-I'm taking notes for my own personal reference and learning, while it's fresh, but it's totally possible I've not remembered correctly and have made mistakes. These are not notes for others to learn from but may give an interested passer-by who is considering a course a good idea about how valuable the course is!
+**Disclaimer**: I'm taking notes for my own personal reference and learning while it's fresh, but it's totally possible I've remembered incorrectly and have made mistakes. These are not notes for others to learn from but may give an interested passer-by who is considering a course a good idea about how valuable the course at Manilla is. If you're interested in learning to paraglide, I'd totally recommend this live-in [9-day course at FlyManilla](https://www.flymanilla.com/ManillaParaglidingSchool/tabid/141/Default.aspx) (but have zero experience with any other courses, of course).
 
 ## Morning session - from risers to canopy
 
