@@ -71,14 +71,34 @@ If the wind is faster than you can travel forward even with the speed bar, *do n
 
 The other scenario you may find is that you take off thinking it's fine but straight away realise that you're not able to go forwards. You need to react quickly in this situation as you are moving closer and closer to the rotor turbulence. Apply big ears straight away to descend, you may need to hold the ears on until the ground, or let them out for your flare, depending on the wind.
 
+When landing, remember it will be a strong wind landing, so turn, wrap, pull.
+
 ### Accepted landing approaches for a paraglider
 
-TODO
+There are two accepted landings for paragliders, depending wether you're landing in a small field or a large field.
+
+### Unobstructed field
+
+Powered aircraft generally do what is known as a left-hand circuit to the runway. That is, if you were looking down the runway in the direction of landing, the plane would first approach in the opposite direction of the landing, parallel and to the left of the runway flying past the end of the runway then doing two 90 degree turns (a u-turn, effectively) before starting the final approach.
+
+If a paraglider is landing in an airfield, they should either do a dead-side approach (basically a mirror of the left-hand circuit on the right hand side where there is no traffic) to land not on the runway, but in the field next to the runway.
+
+At Stanwell tops, the landing in th park requires a left-hand circuit approach due to the traffic - if everyone was doing beats at the end of the field it would get quite tricky.
+
+### Small field landing
+
+This is basically what we've been doing all week: doing figure 8 S-turns (or beats) at the base of the field, perpendicular to the wind direction (called a baseline approach). In reality, this is nearly always what we want to do since it's much safer in lower traffic environments.
 
 ### What to do if you're injured on landing
 
-TODO
+First, assess the situation and remain under control. Don't move too much. If you feel any pain in your back, no matter how small, *do not move*. Back injury is most common if you're falling from 10 - 20m. Sometimes people suffer a broken leg. The Femur is particularly dangerous especially if the brake is exposed, as there could be arterial damage.
+
+Raise the alarm, tell people where you are. This could be difficult as your eyesight could be foggy. You need to give clear instructions when flying - your distance, height, intentions so that it's easier to find you without info if something goes wrong. Apps like What3Words can be helpful to share your location, or just Google maps. There are also products around like Spot Gen 3 or the Garmin InReach which will automatically send updates so people know if your position doesn't change during a trip that something is wrong.
+
+If you see someone have an accident, evaluate very carefully before landing nearby, as the reason for their accident (such as rotor turbulence) could still be present (this is the D - Danger, in DRSABC).
+
+DRSABC - Danger, Response, Send for help, Airway, Breathing, CPR - learn some basic first aid and carry a kit.
 
 ### Altimeters and Variometers
 
-TODO
+An Altimeter is an instrument for measuring altitude and is required for any air travel above 300ft, where as a Variometer is a vertical speed indicator (VSI). These are generally combined into a single product - a Vario. Some people have specific flight instruments with more built in to a touch screen interface, but you're then looking at more than a grand. Others just use apps on their phones (but betware of battery drainage, which will be more than normal when you're up above the towers and further from them), so make sure you carry a USB battery pack.
