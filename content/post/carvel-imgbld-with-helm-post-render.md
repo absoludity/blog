@@ -98,4 +98,4 @@ doesnt.exist.example.com/bitnami/kubeapps-apprepository-controller@sha256:7e66a2
 This is pretty neat because it means not only can I deploy my Helm chart locally with a specific set of immutable images, but also that:
 
 * I can, for example, provide a single Helm chart to different customers/users each with their own image lock file to ensure they get their own (custom?) images from their internal registry.
-* I can combine this with another Carvel tool, [imgpkg]https://carvel.dev/imgpkg/) to bundle the chart and all associated images into a tarball for use in an airgapped environment (and `imgpkg` even takes care of updating my image references when copying my tar file to a new private registry).
+* I can combine this with another Carvel tool, [imgpkg](https://carvel.dev/imgpkg/) to bundle the chart and all associated images into a tarball for use in an air-gapped environment (and `imgpkg` even takes care of updating my image references when copying my tar file to a new private registry).
