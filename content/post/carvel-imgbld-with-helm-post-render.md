@@ -1,5 +1,5 @@
 ---
-title: "Carvel imgbld With Helm Post Render"
+title: "Carvel kbld With Helm Post Render"
 date: 2021-02-02T15:24:29+11:00
 draft: false
 tags: ["vmware", "carvel", "helm", "kubeapps"]
