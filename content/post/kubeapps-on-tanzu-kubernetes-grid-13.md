@@ -8,11 +8,11 @@ Way back in 2020 I'd detailed how I'd setup a [Tanzu Kubernetes Grid 1.1 managem
 
 Recently TKG 1.3 was released and the identity management support in TKG has changed significantly, so it's time to see what's different when setting up a TKG cluster with identity management as well as how we can run Kubeapps on TKG 1.3 with identity management. You will of course need to work through the [TKG 1.3 documentation for your environment](https://docs.vmware.com/en/VMware-Tanzu-Kubernetes-Grid/1.3/vmware-tanzu-kubernetes-grid-13/GUID-index.html), I'll just highlight the significant points and small issues that I needed to work around, due to my environment.
 
-This series of two post details the steps that I took to enable Kubeapps running on a TKG
+This series of two post details the steps that I took to enable Kubeapps running on a TKG 1.3
 cluster on AWS configured to allow users to access via the configured identity management:
 
-* This post focuses on the TKG setup required to get a workload clusters with identity management (using your chosen identity provider),
-* the followup post will detail the related Kubeapps installation and configuration.
+* This post focuses on the TKG 1.3 setup required to get a workload clusters with identity management (using your chosen identity provider),
+* the followup post details the related [Kubeapps installation and configuration]( {{<relref "kubeapps-on-tanzu-kubernetes-grid-13-part-2" >}} ) on TKG 1.3.
 
 ## Setting up a TKG 1.3 management cluster with identity management
 
