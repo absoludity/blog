@@ -1,5 +1,5 @@
 ---
-title: "Kubeaps on Tanzu Kubernetes Grid 1.3"
+title: "Kubeapps on Tanzu Kubernetes Grid 1.3"
 date: 2021-04-19T21:39:49+10:00
 draft: false
 tags: [ "tutorial", "kubeapps", "tkg", "vmware" ]
