@@ -12,6 +12,8 @@ This is the second post in a series of two post detailing the steps that I took 
 
 The details below assume that you've already successfully created your TKG management and workload clusters configured with identity management and verified that you can authenticate with both clusters using your identity provider (ie. not admin credentials).
 
+Here's a brief video overview as well: {{< youtube id="5ejTfmnfuQA" >}}
+
 ## Configuring Pinniped to trust your identity provider directly
 
 ### Some background about Pinniped versions
@@ -57,7 +59,11 @@ spec:
   issuer: https://accounts.google.com
 ```
 
-**Note:** I need to check with the pinniped folk whether they are happy for us users to do this, or whether we should be using the supervisor on the management cluster somehow (not sure how we can for a web-app like Kubeapps).
+Apply the JWTAuthenticator on your workload cluster with:
+
+```
+kubectl apply -f ~/path/to/your/kubeapps-jwt-authenicator.yaml
+```
 
 ### Create the configuration values for Kubeapps and install
 
