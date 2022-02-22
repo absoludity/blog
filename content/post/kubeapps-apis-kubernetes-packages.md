@@ -5,7 +5,9 @@ draft: false
 tags: [ "kubeapps", "vmware" ]
 ---
 
-The recent release of Kubeapps marks a milestone for the Kubeapps team in that we are **no longer restricted to presenting a catalog of only Helm packages** in our UI and, behind the scenes, we've addressed a [long-standing security issue](https://github.com/kubeapps/kubeapps/issues/3896) to **remove the reverse proxy to the Kubernetes API server** that our UI depended on until now. We've done a few overviews of the new **Kubeapps APIs** service which makes this possible (see [Kubeapps APIs: Beyond Helm](https://www.youtube.com/watch?v=_4F5uE0ikF8), or a [demo with Kubeapps with Flux and Carvel](https://www.youtube.com/watch?v=ICEGPvHAiYY), or the [TanzuTV episode 74](https://www.youtube.com/watch?v=rS2AhcIPQEs) where Antonio gives an in-depth demo of the Carvel support), but I'd like to write something a little more detailed about the choices we made as well as some of the implementation details.
+The recent release of Kubeapps marks a milestone for the Kubeapps team in that we are **no longer restricted to presenting a catalog of only Helm packages** in our UI and, behind the scenes, we've addressed a [long-standing security issue](https://github.com/kubeapps/kubeapps/issues/3896) to **remove the reverse proxy to the Kubernetes API server** that our UI depended on until now. We've done a few overviews of the new **Kubeapps APIs** service which makes this possible (see [Kubeapps APIs: Beyond Helm](https://www.youtube.com/watch?v=_4F5uE0ikF8), or the [TanzuTV episode 74](https://www.youtube.com/watch?v=rS2AhcIPQEs) where Antonio gives an in-depth demo of the Carvel support), or more recently, a demo of the Flux and Carvel support together: {{< youtube "Gv2rDP51EtE" >}}
+
+But in this post I'd like to write something a little more detailed about the choices we made as well as some of the implementation details.
 
 First, there were two main issues that we aimed to solve with the Kubeapps APIs service:
 
@@ -120,7 +122,7 @@ Of course, all plugins register their own gRPC servers and so the RPC calls they
 
 Part of the goal of enabling plugable support for different packaging systems is to ensure that a UI like the Kubeapps dashboard can use a single client to present a catalog of apps for install, regardless of whether they come from a standard Helm repository, or a flux-based Helm repository, or Carvel package resources on the cluster. With some caveats, this is what we have achieved with the latest Kubeapps release:
 
-TODO: screenshot
+![Kubeapps Catalog with both Carvel and Flux packages](/img/kubeapps-apis-kubernetes-packages/kubeapps-flux-carvel-test.png)
 
 This is possible because the implementation of the core packages API aggregates from and delegates to the packaging-specific implementations. For example, the [core packages implementation of `GetAvailablePackageDetail`](https://github.com/kubeapps/kubeapps/blob/v2.4.3/cmd/kubeapps-apis/core/packages/v1alpha1/packages.go#L136-L166) can simply delegate to the relevant plugin:
 
