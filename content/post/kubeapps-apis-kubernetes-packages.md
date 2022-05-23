@@ -5,7 +5,7 @@ draft: false
 tags: [ "kubeapps", "vmware" ]
 ---
 
-The recent release of Kubeapps marks a milestone for the Kubeapps team in that we are **no longer restricted to presenting a catalog of only Helm packages** in our UI and, behind the scenes, we've addressed a [long-standing security issue](https://github.com/kubeapps/kubeapps/issues/3896) to **remove the reverse proxy to the Kubernetes API server** that our UI depended on until now. We've done a few overviews of the new **Kubeapps APIs** service which makes this possible (see [Kubeapps APIs: Beyond Helm](https://www.youtube.com/watch?v=_4F5uE0ikF8), or the [TanzuTV episode 74](https://www.youtube.com/watch?v=rS2AhcIPQEs) where Antonio gives an in-depth demo of the Carvel support), or more recently, a demo of the Flux and Carvel support together: {{< youtube "Gv2rDP51EtE" >}}
+The recent release of Kubeapps marks a milestone for the Kubeapps team in that we are **no longer restricted to presenting a catalog of only Helm packages** in our UI and, behind the scenes, we've addressed a [long-standing security issue](https://github.com/vmware-tanzu/kubeapps/issues/3896) to **remove the reverse proxy to the Kubernetes API server** that our UI depended on until now. We've done a few overviews of the new **Kubeapps APIs** service which makes this possible (see [Kubeapps APIs: Beyond Helm](https://www.youtube.com/watch?v=_4F5uE0ikF8), or the [TanzuTV episode 74](https://www.youtube.com/watch?v=rS2AhcIPQEs) where Antonio gives an in-depth demo of the Carvel support), or more recently, a demo of the Flux and Carvel support together: {{< youtube "Gv2rDP51EtE" >}}
 
 But in this post I'd like to write something a little more detailed about the choices we made as well as some of the implementation details.
 
@@ -66,7 +66,7 @@ Note that although we don't support its use in anything other than a demo enviro
 
 Where things become interesting is with the requirement to **support different Kubernetes packaging formats** via this plugable system and **present them consistently to a UI** like the Kubeapps dashboard.
 
-To achieve this, we defined a core packages API ( `core.packages.v1alpha1`) with an interface which any plugin can choose to implement. This interface consists of methods common to querying for and installing Kubernetes packages, such as `GetAvailablePackages` or `CreateInstalledPackage`. You can view the full protobuf definition of this interface in the [packages.proto](https://github.com/kubeapps/kubeapps/blob/v2.4.3/cmd/kubeapps-apis/proto/kubeappsapis/core/packages/v1alpha1/packages.proto) file, but as an example, the `GetAvailablePackageDetail` RPC is defined as:
+To achieve this, we defined a core packages API ( `core.packages.v1alpha1`) with an interface which any plugin can choose to implement. This interface consists of methods common to querying for and installing Kubernetes packages, such as `GetAvailablePackages` or `CreateInstalledPackage`. You can view the full protobuf definition of this interface in the [packages.proto](https://github.com/vmware-tanzu/kubeapps/blob/v2.4.3/cmd/kubeapps-apis/proto/kubeappsapis/core/packages/v1alpha1/packages.proto) file, but as an example, the `GetAvailablePackageDetail` RPC is defined as:
 
 ```protobuf
   rpc GetAvailablePackageDetail(GetAvailablePackageDetailRequest) returns (GetAvailablePackageDetailResponse) {
@@ -124,7 +124,7 @@ Part of the goal of enabling plugable support for different packaging systems is
 
 ![Kubeapps Catalog with both Carvel and Flux packages](/img/kubeapps-apis-kubernetes-packages/kubeapps-flux-carvel-test.png)
 
-This is possible because the implementation of the core packages API aggregates from and delegates to the packaging-specific implementations. For example, the [core packages implementation of `GetAvailablePackageDetail`](https://github.com/kubeapps/kubeapps/blob/v2.4.3/cmd/kubeapps-apis/core/packages/v1alpha1/packages.go#L136-L166) can simply delegate to the relevant plugin:
+This is possible because the implementation of the core packages API aggregates from and delegates to the packaging-specific implementations. For example, the [core packages implementation of `GetAvailablePackageDetail`](https://github.com/vmware-tanzu/kubeapps/blob/v2.4.3/cmd/kubeapps-apis/core/packages/v1alpha1/packages.go#L136-L166) can simply delegate to the relevant plugin:
 
 ```golang
 // GetAvailablePackageDetail returns the package details based on the request.
@@ -174,7 +174,7 @@ It's also worth noting that we tried and were unable to include any streaming gR
 
 Prior to this release, the Kubeapps dashboard required access to the Kubernetes API to be able to query and display the Kubernetes resources related to an installed package, as well as other functionality such as creating secrets or simply determining whether the user is authenticated (only with the users' credential, of course). As a result, the Kubeapps frontend service has included a reverse proxy to the Kubernetes API since the very beginning. A major goal for the new `kubeapps-apis` service was to remove this reverse proxying of the Kubernetes API.
 
-This was achieved with the current release by the creation of the `resources/v1alpha1` plugin, which provides a number of specific functions related to Kubernetes resources that are required by UIs such as the Kubeapps dashboard. For example, rather than being able to query (or update) resources via the Kubernetes API, the `resources/v1alpha1` plugin provides a [`GetResources` method that streams the resources](https://github.com/kubeapps/kubeapps/blob/v2.4.3/cmd/kubeapps-apis/proto/kubeappsapis/plugins/resources/v1alpha1/resources.proto#L18) (or a subset thereof) for a specific installed package only:
+This was achieved with the current release by the creation of the `resources/v1alpha1` plugin, which provides a number of specific functions related to Kubernetes resources that are required by UIs such as the Kubeapps dashboard. For example, rather than being able to query (or update) resources via the Kubernetes API, the `resources/v1alpha1` plugin provides a [`GetResources` method that streams the resources](https://github.com/vmware-tanzu/kubeapps/blob/v2.4.3/cmd/kubeapps-apis/proto/kubeappsapis/plugins/resources/v1alpha1/resources.proto#L18) (or a subset thereof) for a specific installed package only:
 
 ```protobuf
 // GetResourcesRequest
@@ -203,7 +203,7 @@ message GetResourcesRequest {
 }
 ```
 
-This enables a client such as the Kubeapps UI to request to watch a set of resources referenced by an installed package with a single request, with updates being returned any resources in that set changes, which is much more efficient for the browser client than a watch request per resources sent previously sent to the Kubernetes API. Of course the implementation of the resources plugin still needs to issue a separate watch request per resource to the Kubernetes API, but it's much less of a problem than it is to do so from a web browser. Furthermore, it is much simpler to reason about with go channels since the messages from separate go channels of resource updates can be [merged into a single watcher](https://github.com/kubeapps/kubeapps/blob/v2.4.3/cmd/kubeapps-apis/plugins/resources/v1alpha1/server.go#L236-L241) with which to send data:
+This enables a client such as the Kubeapps UI to request to watch a set of resources referenced by an installed package with a single request, with updates being returned any resources in that set changes, which is much more efficient for the browser client than a watch request per resources sent previously sent to the Kubernetes API. Of course the implementation of the resources plugin still needs to issue a separate watch request per resource to the Kubernetes API, but it's much less of a problem than it is to do so from a web browser. Furthermore, it is much simpler to reason about with go channels since the messages from separate go channels of resource updates can be [merged into a single watcher](https://github.com/vmware-tanzu/kubeapps/blob/v2.4.3/cmd/kubeapps-apis/plugins/resources/v1alpha1/server.go#L236-L241) with which to send data:
 
 ```golang
 // Otherwise, if requested to watch the resources, merge the watchers
@@ -214,10 +214,10 @@ for e := range resourceWatcher.ResultChan() {
 }
 ```
 
-See the [`mergeWatchers` function](https://github.com/kubeapps/kubeapps/blob/v2.4.3/cmd/kubeapps-apis/plugins/resources/v1alpha1/server.go#L298-L335) for details of how the channel results are merged, which is itself inspired by the [fan-in example from the go blog](https://go.dev/blog/pipelines).
+See the [`mergeWatchers` function](https://github.com/vmware-tanzu/kubeapps/blob/v2.4.3/cmd/kubeapps-apis/plugins/resources/v1alpha1/server.go#L298-L335) for details of how the channel results are merged, which is itself inspired by the [fan-in example from the go blog](https://go.dev/blog/pipelines).
 
 The resources plugin doesn't care which packaging system is used behind the scenes, all it needs to know is which packaging plugin is used so that it can verify the Kubernetes references for the installed package. In this way, the Kubeapps dashboard UI can present the Kubernetes resources for an installed package without caring which packaging system is involved.
 
 ## Conclusion
 
-The design and implementation of the Kubeapps APIs service has provided Kubeapps with a way forward to support different package formats into the future, beginning with Carvel and Flux, rather than being relevant only in a Helm-based world. We still have work to do to support custom fields in a generic way for the UI, as well as adding an [API for package repositories](https://github.com/kubeapps/kubeapps/issues/3496) and pagination for aggregated results, but with the Kubeapps APIs service in the current release, we have achieved our initial goals to add basic support for Carvel and Flux in addition to the existing Helm support while also removing the dependence of our browser-based Kubeapps client on a proxied connection to the Kubernetes API service. Here's to a more inclusive and secure path forward for Kubeapps!
+The design and implementation of the Kubeapps APIs service has provided Kubeapps with a way forward to support different package formats into the future, beginning with Carvel and Flux, rather than being relevant only in a Helm-based world. We still have work to do to support custom fields in a generic way for the UI, as well as adding an [API for package repositories](https://github.com/vmware-tanzu/kubeapps/issues/3496) and pagination for aggregated results, but with the Kubeapps APIs service in the current release, we have achieved our initial goals to add basic support for Carvel and Flux in addition to the existing Helm support while also removing the dependence of our browser-based Kubeapps client on a proxied connection to the Kubernetes API service. Here's to a more inclusive and secure path forward for Kubeapps!

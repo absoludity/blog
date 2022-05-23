@@ -34,12 +34,12 @@ chosen base image using [VMware Tanzu Application
 Catalog](https://tanzu.vmware.com/application-catalog).
 
 A cluster operator can also update the [access-control for certain
-users](https://github.com/kubeapps/kubeapps/blob/master/docs/user/access-control.md#app-repositories)
+users](https://github.com/vmware-tanzu/kubeapps/blob/master/docs/user/access-control.md#app-repositories)
 so that those users can add other catalogs in a specific namespace, available only to
 users of that namespace. This can even include private applications from
 private catalogs if you choose to [configure the required secrets to pull
 your private
-images](https://github.com/kubeapps/kubeapps/blob/master/docs/user/private-app-repository.md#associating-docker-image-pull-secrets-to-an-apprepository).
+images](https://github.com/vmware-tanzu/kubeapps/blob/master/docs/user/private-app-repository.md#associating-docker-image-pull-secrets-to-an-apprepository).
 Users of the namespace can simply install the private app from the catalog
 and the required secrets will be configured automatically as part of their
 deployment.
@@ -57,7 +57,7 @@ filtered to display only operators providing database apps.
 To ensure that users of an app catalog on Kubeapps can install their
 applications without being overwhelmed by the myriad of options that are
 typically available, Kubeapps presents a simple form with only the options
-that the [Helm chart author determined to be most relevant](https://github.com/kubeapps/kubeapps/blob/master/docs/developer/basic-form-support.md).
+that the [Helm chart author determined to be most relevant](https://github.com/vmware-tanzu/kubeapps/blob/master/docs/developer/basic-form-support.md).
 The following screenshot shows the options presented to a user when installing Postgresql:
 
 ![Easy installation of Postgresql](/img/what-is-kubeapps/postgres-form-deployment.png)
@@ -82,7 +82,7 @@ is installed. You can see this in action in this short demo:
 {{< youtube id="pzVMZGTK0vU" >}}
 
 or you can also read more in our [multi-cluster
-documentation](https://github.com/kubeapps/kubeapps/blob/master/docs/user/deploying-to-multiple-clusters.md)
+documentation](https://github.com/vmware-tanzu/kubeapps/blob/master/docs/user/deploying-to-multiple-clusters.md)
 or browse the specific details required to [setup Kubeapps with multi-cluster
 support on a specific Kubernetes environment - VMware Tanzu Kubernetes
 Grid]({{< relref "kubeapps-on-tkg-management-cluster" >}}).

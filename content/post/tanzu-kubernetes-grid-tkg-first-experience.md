@@ -22,7 +22,7 @@ Enter [Scott Rosenberg](https://github.com/vrabbi) from a VMware partner company
 [Terasky](https://www.terasky.com/), who has been doing a lot of helpful early
 testing of the multicluster support in Kubeapps. Scott suggested that it'd be
 awesome if [Kubeapps could be installed on the TKG management
-cluster as infrastructure](https://github.com/kubeapps/kubeapps/issues/1942) while configured
+cluster as infrastructure](https://github.com/vmware-tanzu/kubeapps/issues/1942) while configured
 so that users can only deploy apps to the workload clusters.
 
 This series of two post details the steps that I took to make that happen with the latest Kubeapps running on a TKG
@@ -83,12 +83,12 @@ authentication with the workload clusters to be handled by third-party
 single-signon providers. Although we could configure our workload clusters to
 trust an established identity provider directly, such as Google, Github or
 Active Directory, it would be painful to later change that decision and need
-to reconfigure all clusters. Instead, [Dex](https://github.com/dexidp/dex) runs on the management cluster and acts as the trusted identity provider for the workload clusters, 
+to reconfigure all clusters. Instead, [Dex](https://github.com/dexidp/dex) runs on the management cluster and acts as the trusted identity provider for the workload clusters,
 allowing us to configure our workload clusters to trust the Dex
 identity provider while we
 configure Dex itself to trust whatever established upstream identity
 provider we want. If we ever change identity providers, we need only update
-Dex's config on the management cluster, not all our clusters. Pretty neat. 
+Dex's config on the management cluster, not all our clusters. Pretty neat.
 
 ### Installing Dex on the management cluster configured with a Google Identity Platform credential
 

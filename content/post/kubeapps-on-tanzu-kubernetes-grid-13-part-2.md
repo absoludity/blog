@@ -121,5 +121,5 @@ You will also need to ensure that the user with which you will be logging in has
 kubectl create clusterrolebinding id-workload-test-rb --clusterrole cluster-admin --user your.user@example.com
 ```
 
-With that, you should be able to login to Kubeapps on your TKG 1.3 workload cluster using that user and deploy some apps! Remember, if you have any issues, please take a look at the [Debugging auth failures when using OIDC](https://github.com/kubeapps/kubeapps/blob/master/docs/user/using-an-OIDC-provider.md#debugging-auth-failures-when-using-oidc) section of the documentation and if you're stuck, drop in on the [#kubeapps channel on Kubernetes slack](https://kubernetes.slack.com/archives/C9D3TSUG4).
+With that, you should be able to login to Kubeapps on your TKG 1.3 workload cluster using that user and deploy some apps! Remember, if you have any issues, please take a look at the [Debugging auth failures when using OIDC](https://github.com/vmware-tanzu/kubeapps/blob/master/docs/user/using-an-OIDC-provider.md#debugging-auth-failures-when-using-oidc) section of the documentation and if you're stuck, drop in on the [#kubeapps channel on Kubernetes slack](https://kubernetes.slack.com/archives/C9D3TSUG4).
 
