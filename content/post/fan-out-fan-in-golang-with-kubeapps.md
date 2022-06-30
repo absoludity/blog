@@ -12,6 +12,10 @@ Up until recently, my favourite design pattern was the [state pattern](https://e
 
 <!--more-->
 
+Or, if you prefer you can watch a video demo'ing the fan-out/fan-in with the game Infinifactory:
+
+{{< youtube id="hRQpU-w8fEY" >}}
+
 ## The problem
 
 In Kubeapps, we have a [pluggable API server for supporting different package formats for Kubernetes]( {{<relref "kubeapps-apis-kubernetes-packages">}}), allowing users to install, update and delete packages on a cluster with a consistent UX experience across different packaging systems.
