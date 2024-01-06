@@ -1,5 +1,6 @@
 ---
 title: "Day02 Copilot and Vanilla Parsing"
+subtitle: "Look mum, no imports!"
 date: 2024-01-07T06:13:31+11:00
 draft: false
 ---
