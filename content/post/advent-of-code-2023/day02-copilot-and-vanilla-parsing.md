@@ -3,6 +3,7 @@ title: "Day02 Copilot and Vanilla Parsing"
 subtitle: "Look mum, no imports!"
 date: 2024-01-07T06:13:31+11:00
 draft: false
+tags: [ "rust", "programming" ]
 ---
 
 After refreshing my knowledge of [the rust parsing library 'nom' with the day01 challenge]({{<ref "day01-a-rust-parsing-exercise-with-nom">}}), I was keen to do the second challenge without, simply using the standard library's string manipulation and default parsing for this simpler parsing problem.
