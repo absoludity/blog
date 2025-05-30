@@ -42,8 +42,9 @@ JSON-LD seems to be a little polarising in the community with a few strong diffe
 -  the use of JSON-LD does take more time for **developers of a specific credential type** to create and understand the role of the context and JSON-LD specific information (than it would to just created a JSON format themselves). So, for example, we have spent quite a lot of time refactoring earlier versions of the few UNTP credential types (the DigitalProductPassport or the DigitalConformanceCredential, for example) so that they are valid JSON-LD.
 
 But the other side of that is, in my opinion, that:
-- **this added complexity is not exposed to the developers (or users) who are using those document formats** (such as those publishing their own credentials or viewing or verifying the credentials of others). Instead, they simply benefit from the extra work that has been done behind the scenes to enable unique, well-defined information that can be collected across the web, understood consistently by both humans and computers and transformed into a graph of information for further processing.
+- **this added complexity is not exposed to the developers (or users) who are using those document formats** (such as those publishing their own credentials or viewing or verifying the credentials of others). Instead, they simply benefit from the extra work that has been done behind the scenes that **enables unique, well-defined information that can be collected across the web, understood consistently by both humans and computers and transformed into a graph of information** for further insights and processing.
 
+I'll demonstrate the benefit of this graph of collected data and the inferences we can build upon it in the next post.
 
 ## Decentralized Identifiers
 
@@ -57,6 +58,8 @@ while the related [Controlled Identifiers](https://www.w3.org/TR/cid-1.0/) speci
 
 > A controlled identifier document contains cryptographic material and lists service endpoints for the purposes of verifying cryptographic proofs from, and interacting with, the controller of an identifier.
 
-Decentralised Identifiers (DIDs) are a very interesting area and a central part of Verifiable Credentials and therefore the UNTP as well.
+That is, Decentralized Identifiers allow individuals and organisations to control their own digital identity, listing their own public keys (for example) and services for which the identity can be used (such as authentication or signature verification or both).
+
+Decentralized Identifiers (DIDs) are a very interesting area and a central part of Verifiable Credentials and therefore the UNTP as well.
 
 I hope that provides enough background information and links to some of the technical specifications that are underpinning the United Nations Transparency Protocol, in particular, for **Verifiable Credentials**, **JSON Linked Data** and **Decentralized Identifiers**), so that anyone interested in learning more or wanting to get involved can do so. I'll be following up with a more technical deep-dive into a proof-of-concept tool that I worked on recently that is able to benefit from the JSON-LD format used for verifiable credentials to build trust information from graphs of UNTP data.
