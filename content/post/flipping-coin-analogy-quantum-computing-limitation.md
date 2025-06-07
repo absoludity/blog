@@ -9,7 +9,7 @@ I love chatting about science with whoever I find myself with and learning toget
 
 The quick answer is that the **amount of data (numbers) required to do those quantum calculations grows way too large very quickly** as the size of the calculation grows. So yes, we can simulate very simple quantum calculations that require only a few quantum bits, or qubits, but as the number of qubits grows, that data required for the calculation grows too large for our computers to handle - at least with the current math that we use for quantum calculations.
 
-But that's not a satisfactory explanation: **it's a question stopper rather than a way to understand why**. So here's my attempt to unpack a little more deeply why the data required for a quantum calculation grows so quickly, using an analogy of flipping coins. I've tried to keep the maths to a minimum required, but have introduced one of the simpler notation ideas of quantum mechanics - the state vector.
+But that's not a satisfactory explanation: **it's a question stopper rather than a way to help understand why**. So here's my attempt to unpack a little more deeply why the data required for a quantum calculation grows so quickly, using an analogy of flipping coins. I've tried to keep the maths to a minimum required, but have introduced one of the simpler notation ideas of quantum mechanics - the state vector.
 
 ## A single coin flip
 
@@ -96,16 +96,16 @@ $$
 $$
 again with the knowledge that the top number represents the probability of \\(\text{HHH}\\), followed by \\(\text{HHT}\\), \\(\text{HTH}\\), etc. through to \\(\text{TTT}\\).
 
-So now, given the two possible outcomes for coin A, two possible outcomes for coin B and two possible outcomes for coin C, we need \\(2\times 2\times 2 = 8\\) numbers to represent the 8 separate possible outcomes. This is only slightly larger than the 6 numbers we needed above for the product state of the three coins.
+So now, given the two possible outcomes for coin A, two possible outcomes for coin B and two possible outcomes for coin C, we need \\(2\times 2\times 2 = 2^{3} = 8\\) numbers to represent the 8 separate possible outcomes. This is only slightly larger than the 6 numbers we needed above for the product state of the three coins.
 
 ## Exponential requirements for more coin flips
 
-So if we have 5 coins, we'll need \\(5\times 2 = 10\\) numbers to represent the state as the product state - the product of 5 individual coin states, but if we expand that product out to obtain the expanded system state with a separate probability for each possible outcome, we'll have \\(2^5 = 32\\) possible outcomes needing 32 numbers to represent the probability of each possible outcome. That's a state vector that looks something like:
+So if we have 5 coins, we'll need \\(5\times 2 = 10\\) numbers to represent the state as the product state - the product of 5 individual coin states, but if we expand that product out to obtain the expanded system state with a separate probability for each possible outcome, we'll have \\(2\times 2 \times 2 \times 2 \times 2 = 2^5 = 32\\) possible system states for the five coins (\\(\text{HHHHH, HHHHT, HHHTH,}\\)... etc.) needing 32 numbers to represent the system state, with the  state vector looking something like:
 
 $$
 \psi_{ABCDE} = \begin{pmatrix}\frac{1}{32} \\\\[1ex] \frac{1}{32} \\\\[1ex] \frac{1}{32} \\\\[1ex] \frac{1}{32} \\\\[1ex] \frac{1}{32} \\\\[1ex] \frac{1}{32} \\\\[1ex] \vdots \\\\[1ex] \frac{1}{32}\end{pmatrix}
 $$
-but much longer (ie. with 32 numbers in total). So rather than the 10 numbers needed to express the same system as a *product state*, we need 32 for the state vector.
+but much longer (ie. with 32 numbers in total). So rather than the \\(5\times 2 = 10\\) numbers needed to express the same system as a *product of individual states*, we need 32 numbers for the state vector.
 
 This difference between the how many numbers are needed to represent the *product state* versus the state vector diverges very quickly:
 
@@ -113,7 +113,7 @@ This difference between the how many numbers are needed to represent the *produc
 - 20 coins:  40 vs 1,048,576 numbers
 - 50 coins: 100 vs 1,125,899,906,842,624 numbers
 
-With 100 coins, we'd need 200 numbers to store and manipulate the *product state* but \\(2^{100}\\) numbers to represent all the different possible states in a state vector, which is around a billion times more numbers than the best guesstimates of the number of grains of sand on the earth ([estimated to be somewhere around](https://www.scientificamerican.com/article/do-stars-outnumber-the-sands-of-earths-beaches/) \\(10^{20}\\) where as \\(2^{100}\\) is around \\(10^{30}\\)).
+With 100 coins, we'd need 200 numbers to store and manipulate the *product of individual states* but \\(2^{100}\\) numbers to represent all the different possible states in a state vector, which is around a billion times more numbers than the best guesstimates of the number of grains of sand on the earth ([estimated to be somewhere around](https://www.scientificamerican.com/article/do-stars-outnumber-the-sands-of-earths-beaches/) \\(10^{20}\\) where as \\(2^{100}\\) is around \\(10^{30}\\)).
 
 So why not just use the product state, which requires only 200 numbers for the 100 coins? That's exactly what you'd do if we were just calculating non-quantum coin flips, but...
 
