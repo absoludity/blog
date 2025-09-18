@@ -154,10 +154,10 @@ address:
   country_code: AU
 
 contact_links:
-  - icon: twitter
+  - icon: mastodon
     icon_pack: fab
-    name: Follow on Twitter
-    link: "https://twitter.com/michaelanelson"
+    name: Follow on Mastodon
+    link: "https://aus.social/@miken"
   - icon: github
     icon_pack: fab
     name: Follow on GitHub
@@ -170,8 +170,8 @@ contact_links:
 # Default image for social sharing and search engines
 sharing_image: ""
 
-# Twitter username (without @)
-twitter: "michaelanelson"
+# Mastodon handle
+mastodon: "https://aus.social/@miken"
 
 ############################
 ## REGIONAL SETTINGS

@@ -24,10 +24,10 @@ sections:
     design:
       background:
         image:
-          filename: flying_over_scattered_narrow.jpg
+          filename: flying_over_scattered.jpg
           focal_point: Bottom
           filters:
-            brightness: 0.6
+            brightness: 0.8
         text_color_light: true
       spacing:
         padding: ['20px', '0', '20px', '0']
