@@ -4,7 +4,8 @@ title: "From Harness to Canopy and Forward Launches"
 date: 2020-10-10T22:49:55+11:00
 draft: false
 tags: [ "paragliding", "manilla" ]
-image: "/img/learning-to-paraglide/from-risers-to-canopy.jpg"
+image:
+  filename: "/img/learning-to-paraglide/from-risers-to-canopy.jpg"
 ---
 
 Starting from the harness attachment loops we worked through the correct names for all the parts of a glider through to the canopy while learning how to identify any issues along the way. In the afternoon we similarly detailed our harnesses and putting them on safely before heading to the field to practise forward launches in the evening.

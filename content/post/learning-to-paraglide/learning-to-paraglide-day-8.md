@@ -4,7 +4,8 @@ subtitle: "Learning to Paraglide Days 8-10"
 date: 2020-10-17T14:07:54+11:00
 draft: false
 tags: [ "paragliding", "manilla" ]
-image: /img/learning-to-paraglide/mt-borah-wet.jpg
+image:
+  filename: "/img/learning-to-paraglide/mt-borah-wet.jpg"
 ---
 
 The 8th day of our course was completely blown out weather-wise with no possibility of flying, which is unfortunate as most of us only need to do some ridge soaring hours practising the give-way rules of the air and get more experience doing our reverse launches on our own in varying conditions. On the 9th day some of us were able to do a brief ridge soar after our theory test, but it was only by staying an extra day that I was able to get in the air for a longer period and demonstrate ridge soaring in traffic.

@@ -4,7 +4,8 @@ subtitle: "Learning to Paraglide Day 7"
 date: 2020-10-16T21:08:55+11:00
 draft: false
 tags: [ "paragliding", "manilla" ]
-image: /img/learning-to-paraglide/west-landing-in-sunset.jpg
+image:
+  filename: "/img/learning-to-paraglide/west-landing-in-sunset.jpg"
 ---
 
 There's some windy weather headed this way for the weekend, so our aim for the day was to get as much practise in as we could, which is exactly what we did - a day without theory classes! We left around 7:45 as planned to head up to the north launch and got 4 flights in before the wind died, landing in the East paddock. In the evening we managed another 3 flights from the west and south launches, the last one into the sunset! 

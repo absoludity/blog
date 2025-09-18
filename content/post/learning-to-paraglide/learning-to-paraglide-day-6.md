@@ -4,7 +4,8 @@ subtitle: "Learning to Paraglide Day 6"
 date: 2020-10-15T20:53:41+11:00
 draft: false
 tags: [ "paragliding", "manilla" ]
-image: /img/learning-to-paraglide/hq-with-mt-borah.jpg
+image:
+  filename: "/img/learning-to-paraglide/hq-with-mt-borah.jpg"
 ---
 
 We started the day at 7:45 heading up the hill in the basher to the North launch at Mt Borah again. After our first flight to the triange paddock we began doing solo flights so that after takeoff, Godfrey hands us over to the landing-site instructors, Karl and Bob, but they only use the radio if necessary. On my last flight for the morning I got to fly with another student all the way from Mt Borah back to the paddock outside the headquarters building! The afternoon saw us doing more reverse inflation ground handling as well as some more theory for landing approaches and handling injuries.

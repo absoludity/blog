@@ -4,7 +4,8 @@ subtitle: "Learning to Paraglide Day 5"
 date: 2020-10-15T06:30:58+11:00
 draft: false
 tags: [ "paragliding", "manilla" ]
-image: /img/learning-to-paraglide/waiting-in-the-paddock-for-a-puff-of-wind.jpg
+image:
+  filename: "/img/learning-to-paraglide/waiting-in-the-paddock-for-a-puff-of-wind.jpg"
 ---
 
 The winds just wouldn't cooperate today, even for learning reverse launches in the paddock. We all got up ready to go, packed ourselves into the basher 4WD with our gear in the trailer, but didn't even leave. The winds at the top of the mountain were getting stronger rather than weaker over the previous half-an-hour, so that it was currently gusts of 30km/h or 8m/s. So we came inside to do more theory: this time learning about wind gradients, turbulence and strategies for judging whether you'll clear obstacles. We did head out to the paddock before lunch to learn reverse launches with Bob, but the wind in the paddock then died down so we couldn't practise the new skill, so more theory instead. We headed out to the paddock again in the late afternoon when the wind had picked up a bit but again it died off on us and we were left standing there "parawaiting".

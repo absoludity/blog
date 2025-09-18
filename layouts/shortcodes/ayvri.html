@@ -1,2 +1,15 @@
-
-<iframe src="https://ayvri.com/embed/{{ index .Params 0}}" allowfullscreen height="600" width="800"></iframe>
+<div class="ayvri-embed" style="margin: 1.5rem 0;">
+  <iframe
+    src="https://ayvri.com/scene/{{ .Get 0 }}/embed"
+    width="100%"
+    height="400"
+    frameborder="0"
+    allowfullscreen
+    style="border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+  </iframe>
+  <p class="text-muted text-center mt-2" style="font-size: 0.9rem;">
+    <a href="https://ayvri.com/scene/{{ .Get 0 }}" target="_blank" rel="noopener">
+      View full flight on Ayvri
+    </a>
+  </p>
+</div>

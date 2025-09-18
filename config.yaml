@@ -1,0 +1,182 @@
+# Hugo configuration file
+title: "Live and let Learn"
+baseURL: "https://liveandletlearn.net/"
+
+############################
+## LANGUAGE
+############################
+
+defaultContentLanguage: en
+hasCJKLanguage: false
+defaultContentLanguageInSubdir: false
+removePathAccents: true
+
+############################
+## MODULES
+############################
+
+module:
+  imports:
+    - path: github.com/HugoBlox/hugo-blox-builder/modules/blox-bootstrap/v5
+
+############################
+## ADVANCED
+############################
+
+enableGitInfo: false
+summaryLength: 30
+pagination:
+  pagerSize: 10
+enableEmoji: true
+enableRobotsTXT: true
+footnotereturnlinkcontents: <sup>^</sup>
+ignoreFiles: [\.ipynb$, .ipynb_checkpoints$, \.Rmd$, \.Rmarkdown$, _cache$]
+
+permalinks:
+  authors: "/author/:slug/"
+  tags: "/tag/:slug/"
+  categories: "/category/:slug/"
+
+disableAliases: true
+outputs:
+  home: [HTML, RSS, JSON]
+  section: [HTML, RSS]
+
+imaging:
+  resampleFilter: lanczos
+  quality: 75
+  anchor: smart
+
+timeout: 600000
+
+taxonomies:
+  tag: tags
+  category: categories
+  author: authors
+
+markup:
+  _merge: deep
+  highlight:
+    lineNos: false
+    style: github
+
+related:
+  threshold: 80
+  includeNewer: true
+  toLower: true
+  indices:
+    - name: tags
+      weight: 100
+    - name: categories
+      weight: 70
+
+############################
+## SECURITY
+############################
+
+security:
+  funcs:
+    getenv: ["^HUGO_", "^WC_", "^CI$"]
+
+############################
+## SITE PARAMS
+############################
+
+params:
+  # Appearance
+  appearance:
+    theme_day: minimal
+    theme_night: minimal
+    font: minimal
+    font_size: L
+
+  # Site header
+  header:
+    navbar:
+      enable: true
+      align: c
+      show_logo: true
+      show_language: false
+      show_day_night: true
+      show_search: true
+      highlight_active_link: true
+
+  # Site footer
+  footer:
+    copyright:
+      notice: "© {year} Michael Nelson. This work is licensed under {license}"
+      license:
+        enable: true
+        allow_derivatives: false
+        share_alike: true
+        allow_commercial: false
+
+  # Localization
+  locale:
+    date_format: "Jan 2, 2006"
+    time_format: "3:04 PM"
+    address_format: en-us
+
+  # Site features
+  features:
+    syntax_highlighter:
+      enable: true
+      extra_languages:
+        - r
+        - latex
+        - rust
+        - go
+    math:
+      enable: true
+    avatar:
+      gravatar: false
+      shape: circle
+    comment:
+      provider: "disqus"
+      disqus:
+        shortname: "liveandletlearn"
+        show_count: true
+    search:
+      provider: wowchemy
+
+############################
+## CONTACT DETAILS
+############################
+
+# Contact (edit or remove options as required)
+email: absoludity+lll@gmail.com
+address:
+  street: ""
+  city: ""
+  region: ""
+  postcode: ""
+  country: Australia
+  country_code: AU
+
+contact_links:
+  - icon: twitter
+    icon_pack: fab
+    name: Follow on Twitter
+    link: "https://twitter.com/michaelanelson"
+  - icon: github
+    icon_pack: fab
+    name: Follow on GitHub
+    link: "https://github.com/absoludity"
+
+############################
+## SOCIAL MEDIA
+############################
+
+# Default image for social sharing and search engines
+sharing_image: ""
+
+# Twitter username (without @)
+twitter: "michaelanelson"
+
+############################
+## REGIONAL SETTINGS
+############################
+
+# Date and time format
+date_format: "Jan 2, 2006"
+time_format: "3:04 PM"
