@@ -4,7 +4,8 @@ subtitle: "Learning to Paraglide Day 2"
 date: 2020-10-11T06:55:27+11:00
 draft: false
 tags: [ "paragliding", "manilla" ]
-image: /img/learning-to-paraglide/training-slope.jpg
+image:
+  filename: "/img/learning-to-paraglide/training-slope.jpg"
 ---
 
 We started early today, heading straight out to the training hill which sits in the morning sun and so has heated air rising for a nice gentle breeze (anabatic flow). We each had an [Advance Alpha 6](https://www.advance.swiss/en/products/paragliders/alpha-7) matching our size (the 6 is the previous model but similar to the current 7). Everyone did pretty well, getting off the ground, learning to flare when landing, as well as doing a little bit of steering. In the afternoon we had a tandem flight where we could take the controls.

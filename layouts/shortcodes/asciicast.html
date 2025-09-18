@@ -1,1 +1,3 @@
-<script id="asciicast-{{ index .Params 0 }}" src="https://asciinema.org/a/{{ index .Params 0 }}.js" async></script>
+<div class="asciinema-container" style="margin: 1.5rem 0;">
+  <script id="asciicast-{{ .Get 0 }}" src="https://asciinema.org/a/{{ .Get 0 }}.js" async></script>
+</div>

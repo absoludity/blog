@@ -4,7 +4,8 @@ subtitle: "Learning to Paraglide Day 3"
 date: 2020-10-12T10:45:37+11:00
 draft: false
 tags: [ "paragliding", "manilla" ]
-image: /img/learning-to-paraglide/michael-landing-on-training-slope.jpg
+image:
+  filename: "/img/learning-to-paraglide/michael-landing-on-training-slope.jpg"
 ---
 
 As planned we headed out to the training slope first thing this morning at 8am as the wind was calm but would be getting stronger later on. A thunderstorm after lunch saw us heading to head-quarters to start the course theory, beginning with wing shapes, glide angles and stalls.
