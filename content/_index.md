@@ -13,19 +13,21 @@ sections:
     content:
       title: |
         Live and let Learn
-      image:
-        filename: welcome.jpg
       text: |
         <br>
-        
-        **Living and learning together** - exploring the intersections of software engineering, aviation, and quantum physics.
-        
-        I'm Michael Nelson, a software engineer who also pilots aircraft and enjoys diving deep into quantum computing concepts. This is where I share my journey of continuous learning across these fascinating domains.
-        
+
+        **Living and learning together**
+
+        I'm Michael Nelson, I write software, fly planes, explore science and love learning new things with people.
+
+
     design:
       background:
-        gradient_end: '#1976d2'
-        gradient_start: '#004ba0'
+        image:
+          filename: flying_over_scattered_narrow.jpg
+          focal_point: Bottom
+          filters:
+            brightness: 0.6
         text_color_light: true
       spacing:
         padding: ['20px', '0', '20px', '0']
@@ -68,21 +70,21 @@ sections:
             <div class="text-center">
               <i class="fas fa-code fa-3x mb-3" style="color: #2196F3;"></i>
               <h4>Software Engineering</h4>
-              <p>Kubernetes, Rust, Go, and cloud-native technologies. Building scalable systems and contributing to open source.</p>
+              <p>Kubernetes, Rust, Python, Go, and cloud-native technologies. Building scalable systems and contributing to open source.</p>
             </div>
           </div>
           <div class="col-md-4">
             <div class="text-center">
               <i class="fas fa-plane fa-3x mb-3" style="color: #FF9800;"></i>
               <h4>Aviation & Flying</h4>
-              <p>Private pilot and paragliding enthusiast. Exploring the physics of flight and the joy of three-dimensional travel.</p>
+              <p>Commercial pilot, glider and paragliding enthusiast. Exploring the physics of flight and enjoying the freedom of moving in three dimensions.</p>
             </div>
           </div>
           <div class="col-md-4">
             <div class="text-center">
               <i class="fas fa-atom fa-3x mb-3" style="color: #9C27B0;"></i>
               <h4>Quantum Computing</h4>
-              <p>Understanding quantum mechanics, quantum algorithms, and the future of computation at the quantum scale.</p>
+              <p>Understanding quantum mechanics and the simulation of quantum computation on traditional computers.</p>
             </div>
           </div>
         </div>
