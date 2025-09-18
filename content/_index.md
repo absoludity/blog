@@ -101,9 +101,26 @@ sections:
       view: article-grid
       columns: 2
 
-  - block: tag_cloud
+  - block: contact
     content:
-      title: Popular Topics
+      title: Connect
+      text: |
+        Find me on these platforms or get in touch via email.
+      email: absoludity+lll@gmail.com
+      contact_links:
+        - icon: linkedin
+          icon_pack: fab
+          name: LinkedIn
+          link: "https://www.linkedin.com/in/michael-nelson-a4900a1/"
+        - icon: github
+          icon_pack: fab
+          name: GitHub
+          link: "https://github.com/absoludity"
+        - icon: mastodon
+          icon_pack: fab
+          name: Mastodon
+          link: "https://aus.social/@miken"
     design:
       columns: '1'
+
 ---
