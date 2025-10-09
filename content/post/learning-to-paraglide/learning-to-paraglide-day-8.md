@@ -3,7 +3,8 @@ title: "Ridge soaring, meteorology and course completion!"
 subtitle: "Learning to Paraglide Days 8-10"
 date: 2020-10-17T14:07:54+11:00
 draft: false
-tags: [ "paragliding", "manilla" ]
+categories: [ "aviation", "paragliding" ]
+tags: ["article"]
 image:
   filename: "/img/learning-to-paraglide/mt-borah-wet.jpg"
 ---

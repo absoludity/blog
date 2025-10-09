@@ -3,7 +3,8 @@ title: "Day03 Tokens, Enums and Docstrings"
 subtitle: "A better way to communicate code"
 date: 2024-01-12T06:45:18+11:00
 draft: false
-tags: [ "rust", "programming" ]
+categories: [ "rust", "programming" ]
+tags: ["article"]
 ---
 
 The [Day 03 challenge](https://adventofcode.com/2023/day/3) involves the calculating whether a character symbol is adjacent to a part number in a two dimensional map, such as:

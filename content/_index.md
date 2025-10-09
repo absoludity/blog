@@ -34,8 +34,8 @@ sections:
 
   - block: collection
     content:
-      title: Latest Posts
-      subtitle: ''
+      title: Recent Learning Bites
+      subtitle: 'Short thoughts and updates'
       text: ''
       # Choose how many pages you would like to display (0 = all pages)
       count: 5
@@ -44,13 +44,7 @@ sections:
         # The folders to display content from
         folders:
           - post
-        author: ""
-        category: ""
-        tag: ""
-        exclude_featured: false
-        exclude_future: false
-        exclude_past: false
-        publication_type: ""
+        tag: "note"
       # Choose how many pages you would like to offset by
       offset: 0
       # Page order: descending (desc) or ascending (asc) date.
@@ -59,6 +53,31 @@ sections:
       # Choose a layout view
       view: compact
       columns: '1'
+
+  - block: collection
+    content:
+      title: Latest Posts
+      subtitle: Longer-form learning when I have the time
+      text: ''
+      # Choose how many pages you would like to display (0 = all pages)
+      count: 3
+      # Filter on criteria
+      filters:
+        # The folders to display content from
+        folders:
+          - post
+        tag: "article"
+      # Choose how many pages you would like to offset by
+      offset: 0
+      # Page order: descending (desc) or ascending (asc) date.
+      order: desc
+    design:
+      # Choose a layout view
+      view: card
+      columns: '1'
+      # Show excerpt with read more link
+      show_excerpt: true
+      excerpt_length: 300
 
   - block: markdown
     content:
@@ -69,22 +88,25 @@ sections:
           <div class="col-md-4">
             <div class="text-center">
               <i class="fas fa-code fa-3x mb-3" style="color: #2196F3;"></i>
-              <h4>Software Engineering</h4>
+              <h4><a href="/category/programming/" style="text-decoration: none; color: inherit;">Software Engineering</a></h4>
               <p>Kubernetes, Rust, Python, Go, and cloud-native technologies. Building scalable systems and contributing to open source.</p>
+              <p><a href="/category/programming/" class="btn btn-outline-primary btn-sm">View Programming Posts →</a></p>
             </div>
           </div>
           <div class="col-md-4">
             <div class="text-center">
               <i class="fas fa-plane fa-3x mb-3" style="color: #FF9800;"></i>
-              <h4>Aviation & Flying</h4>
+              <h4><a href="/category/aviation/" style="text-decoration: none; color: inherit;">Aviation & Flying</a></h4>
               <p>Commercial pilot, glider and paragliding enthusiast. Exploring the physics of flight and enjoying the freedom of moving in three dimensions.</p>
+              <p><a href="/category/aviation/" class="btn btn-outline-warning btn-sm">View Aviation Posts →</a></p>
             </div>
           </div>
           <div class="col-md-4">
             <div class="text-center">
               <i class="fas fa-atom fa-3x mb-3" style="color: #9C27B0;"></i>
-              <h4>Quantum Computing</h4>
+              <h4><a href="/category/science/" style="text-decoration: none; color: inherit;">Science &amp; Quantum Computing</a></h4>
               <p>Understanding quantum mechanics and the simulation of quantum computation on traditional computers.</p>
+              <p><a href="/category/science/" class="btn btn-outline-secondary btn-sm">View Science Posts →</a></p>
             </div>
           </div>
         </div>
@@ -98,7 +120,7 @@ sections:
           - post
         featured_only: true
     design:
-      view: article-grid
+      view: card
       columns: 2
 
   - block: contact

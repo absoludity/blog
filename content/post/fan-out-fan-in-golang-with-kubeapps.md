@@ -2,8 +2,9 @@
 title: "Fan-Out and Fan-In Golang channels in Kubeapps"
 date: 2022-05-20T15:38:13+10:00
 draft: false
+categories: [ "programming", "kubeapps", "golang" ]
 slug: "fan-out-fan-in-golang-kubeapps"
-tags: [ "kubeapps", "vmware", "golang" ]
+tags: ["article"]
 ---
 
 During a career as a software engineer, every now and then you come across a [design pattern](https://en.wikipedia.org/wiki/Software_design_pattern) that becomes your darling for a few years following the discovery. Other design patterns are useful, but not so special that you want to tell the world about them.

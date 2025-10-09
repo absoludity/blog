@@ -3,7 +3,8 @@ title: "More training flights and first theory lessons"
 subtitle: "Learning to Paraglide Day 3"
 date: 2020-10-12T10:45:37+11:00
 draft: false
-tags: [ "paragliding", "manilla" ]
+categories: [ "aviation", "paragliding" ]
+tags: ["article"]
 image:
   filename: "/img/learning-to-paraglide/michael-landing-on-training-slope.jpg"
 ---

@@ -3,7 +3,8 @@ title: First big flight and more ground handling
 subtitle: "Learning to Paraglide Day 6"
 date: 2020-10-15T20:53:41+11:00
 draft: false
-tags: [ "paragliding", "manilla" ]
+categories: [ "aviation", "paragliding" ]
+tags: ["article"]
 image:
   filename: "/img/learning-to-paraglide/hq-with-mt-borah.jpg"
 ---

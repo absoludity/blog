@@ -2,7 +2,8 @@
 title: "Learning to Paraglide"
 date: 2020-10-24T22:20:54+11:00
 draft: false
-tags: [ "paragliding", "manilla" ]
+categories: [ "aviation", "paragliding" ]
+tags: ["article"]
 layout: learningtoparaglide
 ---
 

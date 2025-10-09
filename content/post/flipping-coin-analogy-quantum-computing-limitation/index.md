@@ -2,7 +2,9 @@
 title: "Flipping a Coin: An Analogy for simulated Quantum Computing Limitations"
 date: 2025-06-07T14:05:30+10:00
 draft: false
-tags: ["learning", "quantum-computing"]
+categories: ["science", "learning", "quantum-computing"]
+summary: "Why can't we simulate quantum calculations on powerful classical computers? Using a coin-flipping analogy to understand how the data requirements grow exponentially."
+tags: ["article"]
 ---
 
 I love chatting about science with whoever I find myself with and learning together through those interactions. A few times I've found myself talking about Quantum Computing and specifically discussing why quantum computers are required for quantum calculations. That is, restating the question, **why can't we just simulate quantum calculations on the powerful computers we have today**?
@@ -10,6 +12,8 @@ I love chatting about science with whoever I find myself with and learning toget
 The quick answer is that the **amount of data (numbers) required to do those quantum calculations grows way too large very quickly** as the size of the calculation grows. So yes, we can simulate very simple quantum calculations that require only a few quantum bits, or qubits, but as the number of qubits grows, that data required for the calculation grows too large for our computers to handle - at least with the current math that we use for quantum calculations.
 
 But that's not a satisfactory explanation: **it's a question stopper rather than a way to help understand why**. So here's my attempt to unpack a little more deeply why the data required for a quantum calculation grows so quickly, using an analogy of flipping coins. I've tried to keep the maths to a minimum required, but have introduced one of the simpler notation ideas of quantum mechanics - the state vector.
+
+<!--more-->
 
 ## A single coin flip
 

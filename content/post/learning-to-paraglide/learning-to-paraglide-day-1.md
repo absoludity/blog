@@ -3,7 +3,8 @@ subtitle: "Learning to Paraglide Day 1"
 title: "From Harness to Canopy and Forward Launches"
 date: 2020-10-10T22:49:55+11:00
 draft: false
-tags: [ "paragliding", "manilla" ]
+categories: [ "aviation", "paragliding" ]
+tags: ["article"]
 image:
   filename: "/img/learning-to-paraglide/from-risers-to-canopy.jpg"
 ---

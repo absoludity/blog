@@ -3,7 +3,8 @@ title: First flights on the training hill
 subtitle: "Learning to Paraglide Day 2"
 date: 2020-10-11T06:55:27+11:00
 draft: false
-tags: [ "paragliding", "manilla" ]
+categories: [ "aviation", "paragliding" ]
+tags: ["article"]
 image:
   filename: "/img/learning-to-paraglide/training-slope.jpg"
 ---

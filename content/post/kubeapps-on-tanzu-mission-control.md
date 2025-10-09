@@ -2,7 +2,8 @@
 title: "Kubeapps on Tanzu Mission Control via Pinniped"
 date: 2021-02-25T11:40:02+11:00
 draft: false
-tags: [ "tutorial", "kubeapps", "tmc", "vmware", "pinniped" ]
+categories: [ "programming", "tutorial", "kubeapps", "tmc", "vmware", "pinniped" ]
+tags: ["article"]
 ---
 
 We've been able to run [Kubeapps in a multi-cluster setup on various Kubernetes clusters]( {{< relref "kubeapps-on-tkg-management-cluster" >}} ) for a while now, but this was dependent on the Kubeapps' user being authenticated in a way that all the clusters trust. Up until now, this meant having all the clusters [configured to trust the same OIDC identity provider](https://kubernetes.io/docs/reference/access-authn-authz/authentication/#configuring-the-api-server), which is not possible in some Kubernetes environments.

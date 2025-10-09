@@ -2,7 +2,9 @@
 title: "Live and Let Learn with Rust, Quantum Computing and Piloting aeroplanes"
 date: 2024-02-22T16:25:25+11:00
 draft: false
-tags: [ "life", "learning", "rust", "piloting", "quantum-computing"]
+categories: [ "programming", "aviation", "science", "life", "learning", "rust", "piloting", "quantum-computing"]
+featured: true
+tags: ["article"]
 ---
 
 In mid 2022 I was presented with an **amazing opportunity** through no effort of my own: VMware, the company I worked for, announced it was being acquired by a non-remote, non-open-source-oriented multi-national in a somewhat lengthy 18 month process. As a fully-remote staff engineer on an open-source project **I estimated a 75 to 90 percent probability that I'd receive a redundancy in around 18 months time**.

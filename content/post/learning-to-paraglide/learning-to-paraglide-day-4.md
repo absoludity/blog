@@ -3,7 +3,8 @@ title: "First high flights and learning about emergency situations"
 subtitle: "Learning to Paraglide Day 4"
 date: 2020-10-14T05:37:47+11:00
 draft: false
-tags: [ "paragliding", "manilla" ]
+categories: [ "aviation", "paragliding" ]
+tags: ["article"]
 image:
   filename: "/img/learning-to-paraglide/first-high-flights.jpg"
 ---

@@ -2,7 +2,8 @@
 title: "What is Kubeapps"
 date: 2020-09-28T10:06:28+10:00
 draft: false
-tags: [ "kubeapps", "vmware" ]
+categories: [ "programming", "kubeapps", "vmware" ]
+tags: ["article"]
 ---
 
 For over a year now I've been working together with

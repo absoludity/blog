@@ -2,16 +2,21 @@
 title: "10 tips for writing software with LLM agents"
 date: 2025-09-26T16:18:59+10:00
 draft: false
-tags: [ "llm", "ai", "software-development", "agents", "learning" ]
+image:
+  caption: "A young River Phoenix programs with an agent's help in the 1985 kids sci-fi movie [Explorers](https://www.imdb.com/title/tt0089114/)"
+categories: [ "artificial-intelligence", "ai-agents", "programming", "learning" ]
+tags: ["article"]
 ---
 
-I've been working in software development for almost thirty years, choosing to stay in an individual contributer role because, among other reasons, I *love* working and learning together in a team solving problems with code.
+I've been working in software development for a whilie now and have consistently chosen to stay in an individual contributer role because, among other reasons, I *love* working and learning together in a team solving problems with code.
 
 So when I say, with complete honesty, that **I have never enjoyed developing software more than the last six months or so while developing together with large language model agents**, it's not because I haven't enjoyed software development in the past. I think it's mostly because having an incredibly fast and knowledgeable coding assistant allows me to **stay in the flow of the actual creative process** (yes, for those unfamiliar with writing software, it can be very creative and fun!) - designing, learning and architecting the solution - rather than constantly deep-diving into the depths of some library or framework to solve some small blocker.
 
 But **the benefit of having an incredibly knowledgable, if some-what over eager, coding assistant comes with a lot of dangers and pitfalls as well**. The same capabilities that make these tools powerful - their speed and broad knowledge - can tempt us to skip the learning process and generate code that we don't fully understand, creating downstream issues for review and maintenance.
 
 In this post, I want to highlight the benefits as well as the strategies to avoid the pitfalls, in a top-10 tips format. Hopefully it's helpful whether you've thirty years experience or three.
+
+<!--more-->
 
 ## My LLM agent-based setup
 

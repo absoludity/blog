@@ -1,7 +1,8 @@
 ---
 title: "Spanish Interactions"
 date: 2017-07-10T01:15:27+10:00
-tags: [ "culture", "spain", "bitnami" ]
+categories: [ "culture" ]
+tags: ["article"]
 ---
 I'm currently travelling at nearly 300km/h through the Spanish country-side on my way to
 [Seville][seville] to meet some of the [Bitnami][bitnami] team, but it's not the speed

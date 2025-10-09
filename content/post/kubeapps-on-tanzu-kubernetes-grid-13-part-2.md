@@ -2,7 +2,8 @@
 title: "Kubeapps on Tanzu Kubernetes Grid 1.3"
 date: 2021-04-19T21:39:49+10:00
 draft: false
-tags: [ "tutorial", "kubeapps", "tkg", "vmware" ]
+categories: [ "programming", "tutorial", "kubeapps", "tkg", "vmware" ]
+tags: ["article"]
 ---
 
 This is the second post in a series of two post detailing the steps that I took to install Kubeapps running on a TKG 1.3 cluster on AWS configured to allow user authentication via the TKG identity management:
@@ -122,4 +123,3 @@ kubectl create clusterrolebinding id-workload-test-rb --clusterrole cluster-admi
 ```
 
 With that, you should be able to login to Kubeapps on your TKG 1.3 workload cluster using that user and deploy some apps! Remember, if you have any issues, please take a look at the [Debugging auth failures when using OIDC](https://github.com/vmware-tanzu/kubeapps/blob/master/docs/user/using-an-OIDC-provider.md#debugging-auth-failures-when-using-oidc) section of the documentation and if you're stuck, drop in on the [#kubeapps channel on Kubernetes slack](https://kubernetes.slack.com/archives/C9D3TSUG4).
-

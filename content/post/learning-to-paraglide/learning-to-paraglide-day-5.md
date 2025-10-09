@@ -3,7 +3,8 @@ title: "Reverse launches, wind gradients and turbulence"
 subtitle: "Learning to Paraglide Day 5"
 date: 2020-10-15T06:30:58+11:00
 draft: false
-tags: [ "paragliding", "manilla" ]
+categories: [ "aviation", "paragliding" ]
+tags: ["article"]
 image:
   filename: "/img/learning-to-paraglide/waiting-in-the-paddock-for-a-puff-of-wind.jpg"
 ---

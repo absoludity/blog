@@ -3,7 +3,8 @@ title: "Morning high flights and sunset sleddies"
 subtitle: "Learning to Paraglide Day 7"
 date: 2020-10-16T21:08:55+11:00
 draft: false
-tags: [ "paragliding", "manilla" ]
+categories: [ "aviation", "paragliding" ]
+tags: ["article"]
 image:
   filename: "/img/learning-to-paraglide/west-landing-in-sunset.jpg"
 ---
