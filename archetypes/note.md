@@ -1,9 +1,13 @@
 ---
-title: "{{ replace .TranslationBaseName "-" " " | title }}"
+title: "{{ .Name | humanize | title }}"
 date: {{ .Date }}
 draft: false
-categories: [ "" ]
+categories: [""]
 tags: ["note"]
+summary: ""
+authors: ["Michael"]
 ---
 
 <!-- Quick thought or brief update goes here -->
+
+This is a note entry. Notes are shorter, more informal posts for capturing thoughts, observations, or quick updates.
