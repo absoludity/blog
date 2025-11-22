@@ -6,6 +6,7 @@ categories: ["aviation", "piloting", "learning"]
 tags: ["note"]
 summary: "Searching for an active pilot blogging community in Australia to learn together."
 authors: ["Michael"]
+commentable: true
 ---
 
 I love learning together with others who are going through similar experiences and working through similar things. **It's incredibly helpful to be able to write, *interact* and help each other learn**. 

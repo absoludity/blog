@@ -5,6 +5,7 @@ date: 2023-12-10T13:51:15+11:00
 draft: false
 categories: [ "rust", "programming" ]
 tags: ["article"]
+commentable: true
 ---
 
 It's been quite some time since I've taken time to enjoy coding challenges primarily for the fun of it. Over the next months, I'm keen to work my way through the [2023 Advent of Code](https://adventofcode.com/2023) - a fun set of problems created by [Eric Wastl](https://adventofcode.com/2023/about) strung together with a seasonal story - and write up a bit about my own learning and fun.

@@ -4,6 +4,7 @@ date: 2022-02-16T10:22:30+11:00
 draft: false
 categories: [ "programming", "kubeapps", "vmware" ]
 tags: ["article"]
+commentable: true
 ---
 
 The recent release of Kubeapps marks a milestone for the Kubeapps team in that we are **no longer restricted to presenting a catalog of only Helm packages** in our UI and, behind the scenes, we've addressed a [long-standing security issue](https://github.com/vmware-tanzu/kubeapps/issues/3896) to **remove the reverse proxy to the Kubernetes API server** that our UI depended on until now. We've done a few overviews of the new **Kubeapps APIs** service which makes this possible (see [Kubeapps APIs: Beyond Helm](https://www.youtube.com/watch?v=_4F5uE0ikF8), or the [TanzuTV episode 74](https://www.youtube.com/watch?v=rS2AhcIPQEs) where Antonio gives an in-depth demo of the Carvel support), or more recently, a demo of the Flux and Carvel support together: {{< youtube "Gv2rDP51EtE" >}}

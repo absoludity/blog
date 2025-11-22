@@ -6,6 +6,7 @@ categories: [""]
 tags: ["note"]
 summary: ""
 authors: ["Michael"]
+commentable: true
 ---
 
 <!-- Quick thought or brief update goes here -->

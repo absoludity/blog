@@ -4,6 +4,7 @@ date: 2021-02-02T15:24:29+11:00
 draft: false
 categories: ["programming", "vmware", "carvel", "helm", "kubeapps"]
 tags: ["article"]
+commentable: true
 ---
 
 For the past couple of years I've been working on the [Kubeapps project](https://kubeapps.com/), which until recently has been a UI dashboard for the [Helm project](https://helm.sh/) - providing a simple, web-based UI to deploy applications on [Kubernetes](https://kubernetes.io/).

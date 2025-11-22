@@ -5,6 +5,7 @@ draft: false
 categories: [ "aviation", "paragliding" ]
 tags: ["article"]
 layout: learningtoparaglide
+commentable: true
 ---
 
 After a lifetime of wanting to fly and months of waiting since deciding to learn, I was finally up at [FlyManilla](https://flymanilla.com/) learning to fly a paraglider with 10 other keen wannabe fledglings under Chief Flying Instructor of Godfrey Wenness and two other flying instructors Karl and Bob. Though I'd been looking forward to this for a while and reading as much as I could to prepare, nothing beats being shown the details from years of experience with real equipment that you can touch and try - which is exactly what we were doing on our first day.

@@ -7,6 +7,7 @@ categories: [ "aviation", "paragliding" ]
 tags: ["article"]
 image:
   filename: "/img/learning-to-paraglide/from-risers-to-canopy.jpg"
+commentable: true
 ---
 
 Starting from the harness attachment loops we worked through the correct names for all the parts of a glider through to the canopy while learning how to identify any issues along the way. In the afternoon we similarly detailed our harnesses and putting them on safely before heading to the field to practise forward launches in the evening.

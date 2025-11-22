@@ -4,6 +4,7 @@ date: 2021-04-19T21:39:49+10:00
 draft: false
 categories: [ "programming", "tutorial", "kubeapps", "tkg", "vmware" ]
 tags: ["article"]
+commentable: true
 ---
 
 This is the second post in a series of two post detailing the steps that I took to install Kubeapps running on a TKG 1.3 cluster on AWS configured to allow user authentication via the TKG identity management:

@@ -5,6 +5,7 @@ draft: true
 categories: [ "aviation" ]
 tags: ["article"]
 summary: "Joining a gliding club opens up a wealth of experience"
+commentable: true
 ---
 
 <!-- Add a brief summary or introduction here -->

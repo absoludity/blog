@@ -7,6 +7,7 @@ categories: [ "aviation", "paragliding" ]
 tags: ["article"]
 image:
   filename: "/img/learning-to-paraglide/michael-landing-on-training-slope.jpg"
+commentable: true
 ---
 
 As planned we headed out to the training slope first thing this morning at 8am as the wind was calm but would be getting stronger later on. A thunderstorm after lunch saw us heading to head-quarters to start the course theory, beginning with wing shapes, glide angles and stalls.

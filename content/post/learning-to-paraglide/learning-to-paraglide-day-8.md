@@ -7,6 +7,7 @@ categories: [ "aviation", "paragliding" ]
 tags: ["article"]
 image:
   filename: "/img/learning-to-paraglide/mt-borah-wet.jpg"
+commentable: true
 ---
 
 The 8th day of our course was completely blown out weather-wise with no possibility of flying, which is unfortunate as most of us only need to do some ridge soaring hours practising the give-way rules of the air and get more experience doing our reverse launches on our own in varying conditions. On the 9th day some of us were able to do a brief ridge soar after our theory test, but it was only by staying an extra day that I was able to get in the air for a longer period and demonstrate ridge soaring in traffic.

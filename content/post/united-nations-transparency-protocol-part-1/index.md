@@ -6,6 +6,7 @@ image:
   focal_point: "TopLeft"
 categories: [ "programming", "untp", "learning", "verifiable-credentials"]
 tags: ["article"]
+commentable: true
 ---
 
 For the past year I've been working with the people at [GoSource](https://gosource.com.au/) around 3 days per week while also working towards my commercial pilot license (more on that journey separately). GoSource are involved in quite a number of interesting projects, but for the past 5 months I've been involved with the [United Nations Transparency Protocol](https://uncefact.github.io/spec-untp/docs/about/), which aims to make product claims easy to verify - claims such as whether the product was produced on land that is [deforestation-free](https://environment.ec.europa.eu/topics/forests/deforestation/regulation-deforestation-free-products_en), or whether a battery in your EV was sourced with components that meet [certain sustainability goals](https://environment.ec.europa.eu/topics/waste-and-recycling/batteries_en).

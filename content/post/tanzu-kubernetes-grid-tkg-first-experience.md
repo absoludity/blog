@@ -4,6 +4,7 @@ date: 2020-09-22T10:01:03+10:00
 draft: false
 categories: [ "programming", "tutorial", "kubeapps", "tkg", "vmware" ]
 tags: ["article"]
+commentable: true
 ---
 
 [Andres](https://github.com/andresmgot) and I have been doing quite a bit of

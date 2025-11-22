@@ -139,6 +139,15 @@ params:
     search:
       provider: wowchemy
 
+  # Comments
+  comments:
+    engine: 1
+    commentable:
+      post: true # Enable comments on blog posts
+      page: true # Disable comments on static pages (like About)
+      note: true # Uncomment to enable comments on notes
+      article: true # Uncomment to enable comments on articles
+
 ############################
 ## CONTACT DETAILS
 ############################

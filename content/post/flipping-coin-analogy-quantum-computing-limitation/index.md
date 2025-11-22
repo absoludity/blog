@@ -5,6 +5,7 @@ draft: false
 categories: ["science", "learning", "quantum-computing"]
 summary: "Why can't we simulate quantum calculations on powerful classical computers? Using a coin-flipping analogy to understand how the data requirements grow exponentially."
 tags: ["article"]
+commentable: true
 ---
 
 I love chatting about science with whoever I find myself with and learning together through those interactions. A few times I've found myself talking about Quantum Computing and specifically discussing why quantum computers are required for quantum calculations. That is, restating the question, **why can't we just simulate quantum calculations on the powerful computers we have today**?

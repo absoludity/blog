@@ -5,6 +5,7 @@ date: 2024-01-12T06:45:18+11:00
 draft: false
 categories: [ "rust", "programming" ]
 tags: ["article"]
+commentable: true
 ---
 
 The [Day 03 challenge](https://adventofcode.com/2023/day/3) involves the calculating whether a character symbol is adjacent to a part number in a two dimensional map, such as:

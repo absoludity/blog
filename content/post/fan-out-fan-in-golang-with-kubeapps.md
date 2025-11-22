@@ -5,6 +5,7 @@ draft: false
 categories: [ "programming", "kubeapps", "golang" ]
 slug: "fan-out-fan-in-golang-kubeapps"
 tags: ["article"]
+commentable: true
 ---
 
 During a career as a software engineer, every now and then you come across a [design pattern](https://en.wikipedia.org/wiki/Software_design_pattern) that becomes your darling for a few years following the discovery. Other design patterns are useful, but not so special that you want to tell the world about them.

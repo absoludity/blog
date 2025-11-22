@@ -4,6 +4,7 @@ date: 2022-09-29T10:55:50+10:00
 draft: false
 categories: [ "programming", "rust", "vmware" ]
 tags: ["article"]
+commentable: true
 ---
 
 One of the great aspects of working at a larger company like VMware is that there are programs like [Take 3](https://www.linkedin.com/feed/update/urn:li:activity:6605138622859534336/), designed to help people who meet certain criteria to take **3 months on a different project to learn new skills in other contexts** and bring those skills and experience back to their team - rather than potentially looking elsewhere for a similar learning experience. This post documents **my own recent learning experience of an exciting Take3 project at VMware, with the hope that others may be able to take up the opportunity to learn and bring new skills back to their teams**.

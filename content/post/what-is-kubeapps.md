@@ -4,6 +4,7 @@ date: 2020-09-28T10:06:28+10:00
 draft: false
 categories: [ "programming", "kubeapps", "vmware" ]
 tags: ["article"]
+commentable: true
 ---
 
 For over a year now I've been working together with

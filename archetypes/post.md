@@ -4,6 +4,7 @@ date: {{ .Date }}
 draft: false
 categories: [ "" ]
 tags: ["article"]
+commentable: true
 ---
 
 <!-- Add a brief summary or introduction here -->

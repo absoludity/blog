@@ -6,6 +6,7 @@ image:
   caption: "A young River Phoenix programs with an agent's help in the 1985 kids sci-fi movie [Explorers](https://www.imdb.com/title/tt0089114/)"
 categories: [ "artificial-intelligence", "ai-agents", "programming", "learning" ]
 tags: ["article"]
+commentable: true
 ---
 
 I've been working in software development for a whilie now and have consistently chosen to stay in an individual contributer role because, among other reasons, I *love* working and learning together in a team solving problems with code.

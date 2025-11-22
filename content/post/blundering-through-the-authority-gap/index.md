@@ -4,6 +4,7 @@ date: 2025-10-09T19:31:22+11:00
 draft: false
 categories: [ "aviation", "learning", "risk-management" ]
 tags: ["note"]
+commentable: true
 ---
 
 Read the close-call [Blundering through the Authority

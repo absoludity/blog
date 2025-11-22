@@ -4,6 +4,7 @@ date: 2020-09-23T11:01:36+10:00
 draft: false
 categories: [ "programming", "tutorial", "kubeapps", "tkg", "vmware" ]
 tags: ["article"]
+commentable: true
 ---
 
 This is part two of a series detailing the steps required to run [Kubeapps](https://kubeapps.com) on a [VMware TKG](https://tanzu.vmware.com/kubernetes-grid) management cluster (on AWS) configured to allow users to deploy applications to multiple

@@ -7,6 +7,7 @@ categories: [ "aviation", "paragliding" ]
 tags: ["article"]
 image:
   filename: "/img/learning-to-paraglide/first-high-flights.jpg"
+commentable: true
 ---
 
 At 8am we were in the basher heading up to the north launch and ready to go! Our first high flights are done with pretty strict supervision: Godfrey checks everything at the top and gets us into the air safely and then hands over on the radio to Karl and Bob who instruct us via radio for our approach and landing. All up the flights were only 6 or 7 minutes, but that's 6 or 7 minutes being in control of our own wing in the air! It's still incredible each time at the moment, realising I'm in the air, gliding like a bird down to land (well, a pretty clumsy bird, but still). In the afternoon the wind had picked up and was too strong for us, so it was back to head-quarters to learn about various emergency situations and how best to handle them.

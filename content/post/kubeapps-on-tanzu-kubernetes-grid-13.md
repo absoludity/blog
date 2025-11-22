@@ -4,6 +4,7 @@ date: 2021-04-19T06:42:43+10:00
 draft: false
 categories: [ "programming", "tutorial", "kubeapps", "tkg", "vmware" ]
 tags: ["article"]
+commentable: true
 ---
 
 Way back in 2020 I'd detailed how I'd setup a [Tanzu Kubernetes Grid 1.1 management cluster with OpenID Connect support]( {{<relref "tanzu-kubernetes-grid-tkg-first-experience" >}} ) (for single sign-on) before installing [Kubeapps with single sign-on on that management cluster]( {{< relref "kubeapps-on-tkg-management-cluster" >}} ).

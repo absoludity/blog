@@ -4,6 +4,7 @@ date: 2017-04-30T19:50:00+10:00
 categories: [ "programming", "ubuntu", "linux", "tutorial" ]
 tags: ["article"]
 type: post
+commentable: true
 ---
 
 I recently purchased a [Dell XPS13 (9365)][dell-xps13] (thanks to
