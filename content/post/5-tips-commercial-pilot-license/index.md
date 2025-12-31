@@ -1,29 +1,33 @@
 ---
 title: "5 Tips Towards Your Commercial Pilot License"
-date: 2025-11-05T15:03:08+11:00
-draft: true
+date: 2025-12-31T13:00:00+11:00
+draft: false
 categories: [ "aviation", "piloting" ]
 tags: ["article"]
-summary: "My five practical tips for obtaining a commercial pilot license: join a gliding club for community and experience, find a trustworthy flight school, set up a home simulator for practice, enjoy and stay ahead on theory, and make your training financially and personally sustainable over the long term."
+image:
+  caption: "Flying over Wyangala dam - a small diversion on a flight to Canberra"
 commentable: true
 ---
 
-As 2025 comes to an end, I'm reflecting a little on my own journey to my commercial pilot license. With all my (in)experience of 300 hours total time, I'm keen to capture my own thoughts for my future self, but maybe they can be useful to others heading on a similar journey. 
+As 2025 comes to an end, I've been thinking about my own journey to gaining my commercial pilot license and multi-engine instrument rating. With all my (in)experience of 300 hours total time flying aeroplanes, **below are my thoughts and tips for getting your commercial pilot license**. Your milage may vary.
 
-If your goal is to fly aircraft and potentially earn money flying aircraft, then **you have a long-term goal that will require a significant short-to-medium-term investment** in terms of both time and money. This time and financial investment **has to be sustainable over the long term**.
+But first (and I will come back to this point throughout), if your goal is to fly aeroplanes and potentially earn money flying aeroplanes, then **you have a long-term goal that will require a significant short-to-medium-term investment** in terms of both time and money. This time and financial investment **has to be sustainable** - not just for you, but potentially for your support network as well.
 
-I personally think that **pilot training should be at a much slower pace than the pace at which most people rush through**, so that you can enjoy, absorb and reflect on the learning as you move through the material and skills. But different things suit different people. The following tips may or may not be applicable for you, since they are based on my choice of the non-integrated (Part 141) pathway which isn't as time-constrained as the normal integrated pathway (Part 142) where the flying school has to get you through your training within a shorter time period.
-
+<!--more-->
 
 ## Tip 1: Join a Gliding Club
 
 First, join a gliding club! The gliding community is full of **people who are just as excited as you about flying** (or even more so!) and people who have a **wealth of experience flying all different types of aircraft**, which you generally won't at this point! I honestly think there's no better way to start *and continue* your piloting journey than being part of a gliding community.
 
+![Gliding over Bathurst?](images/bathurst-gliding-club.jpg)
+
 Early in my own journey, I joined the [Bathurst Soaring Club](https://www.bathurstsoaringclub.com.au/) and together with the excellent volunteer (!) instructors, I learned to fly the club gliders, learned the basics of soaring in thermals and importantly, learned how to land a plane without an engine - which is very relevant for any single-engine aeroplane.
 
 But gliding clubs are communities of volunteers - don't view your club as a stepping-stone to bigger things but rather, a home-base where **you can pay it forward as you gain more experience**, staying on to continue towards instructing others, aircraft maintenance, or flying a tug - there are plenty of ways to be able to help the would-be pilots who come after you to take their first flights in a glider.
 
-On top of all those benefits, flight time in a sailplane counts towards your total flight time for your pilot logbook! (TODO: Add reference)
+On top of all those benefits, flight time in a sailplane can count towards your total flight time for your pilot logbook, under certain circumstances.
+
+Note: I'm also a member of [Bathurst Aero Club](https://www.bathurstaeroclub.com.au/) - another great place to rent a C172 and meet people!
 
 ## Tip 2: Find a school that you trust
 
@@ -44,7 +48,9 @@ But there is **so much to learn in the world of simulation that it can be overwh
 - Once you're feeling more familiar, you may want to begin **using the sim to practise flights and procedures related to your training**. Emergency procedures are excellent to practise on the simulator, as are start-up procedures and trips out to your local training area for stalls or steep turns, or cross-country flights that you are planning.
 - After six months or so, when you're comfortable with the simulator, you may want to consider joining the Virtual Air Traffic Simulation Network - [VATSIM](https://vatsim.net/), then joining your local community and doing some VFR flights with real radio work. It's a great way to practise your radio work while flying (and mic-fright is a real thing here too, so it can help you get over that too) and is a gentler introduction than jumping straight in to IFR flights on VATSIM.
 
-I spent around $5,000 on a computer with a decent graphics card, a Honeywell yoke and throttle quadrant, pedals and a second-hand VR headset and have gotten so much value out of it throughout my pilot training over the past few years. 
+I spent around $5,000 on a computer with a decent graphics card, a Honeywell yoke and throttle quadrant, pedals and a second-hand VR headset set up with Microsoft Flight Simulator 2024 and have gotten so much value out of it throughout my pilot training over the past few years. 
+
+![Microsoft Flight Simulator 2024 cover art](images/Microsoft_Flight_Simulator_2024_cover_art.png)
 
 There's **so much more that's possible and beneficial to practise on a simulator**, but it should also be noted that **some instructors (who have more experience than me) may warn against a home simulator** where you can develop bad habits that are hard to change once established. This is based on well-established **Law of Primacy** - that what you learn first often sticks with you. I'm not convinced that this means home sims should be avoided, but your instructor may have some good tips about what to practise and what to avoid when using your sim at home during your flight training.
 
