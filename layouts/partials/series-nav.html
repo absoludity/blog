@@ -1,0 +1,14 @@
+{{ if .Params.series }} {{ range .Params.series }} {{ $seriesName := . }} {{
+$seriesPosts := where site.RegularPages "Params.series" "intersect" (slice
+$seriesName) }} {{ if gt (len $seriesPosts) 1 }} {{ $seriesPage := site.GetPage
+(printf "post/%s" $seriesName) }} {{ $seriesTitle := $seriesName | humanize |
+title }} {{ if $seriesPage }} {{ $seriesTitle = $seriesPage.Title }} {{ end }}
+<div class="alert alert-info series-nav mb-4" role="alert">
+    <p class="mb-0">
+        This article is part of the <strong>{{ $seriesTitle }}</strong> series.
+        <a href="/post/{{ $seriesName }}/" class="alert-link"
+            >View all tips in this series</a
+        >.
+    </p>
+</div>
+{{ end }} {{ end }} {{ end }}
