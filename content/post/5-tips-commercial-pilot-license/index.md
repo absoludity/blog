@@ -1,5 +1,5 @@
 ---
-title: "5 Tips Towards Your Commercial Pilot License"
+title: "5 Tips Towards Your Commercial Pilot Licence"
 date: 2025-12-31T13:00:00+11:00
 draft: false
 categories: [ "aviation", "piloting" ]
@@ -9,7 +9,7 @@ image:
 commentable: true
 ---
 
-As 2025 comes to an end, I've been thinking about my own journey to gaining my commercial pilot license and multi-engine instrument rating. With all my (in)experience of 300 hours total time flying aeroplanes, **below are my thoughts and tips for getting your commercial pilot license**. Your milage may vary.
+As 2025 comes to an end, I've been thinking about my own journey to gaining my commercial pilot licence and multi-engine instrument rating. With all my (in)experience of 300 hours total time flying aeroplanes, **below are my thoughts and tips for getting your commercial pilot licence**. Your mileage may vary.
 
 But first (and I will come back to this point throughout), if your goal is to fly aeroplanes and potentially earn money flying aeroplanes, then **you have a long-term goal that will require a significant short-to-medium-term investment** in terms of both time and money. This time and financial investment **has to be sustainable** - not just for you, but potentially for your support network as well.
 
@@ -33,7 +33,7 @@ Note: I'm also a member of [Bathurst Aero Club](https://www.bathurstaeroclub.com
 
 You will be investing a lot of time and money into a pilot school so it is absolutely worthwhile **investing some initial time in choosing a school that not only suits your personal needs, but that you can *trust***.
 
-Personally, I needed a school which allowed me to progress at my own pace (since I work another job 3 days a week) and wasn't too far from home. I ended up doing my commercial license and my multi-engine IFR with [PanAir Flight Training](https://www.panairflighttraining.com/) in Bathurst who have a transparent per-hour cost on their website and a great team to work with. The Head of Operations, Tammy Camileri, has a lot of experience flying for the [PanAir charter company](https://www.panair.com.au/) together with her partner, Charlie (and they also [race jets on the side](https://www.flylikeagirl.com.au/)).
+Personally, I needed a school which allowed me to progress at my own pace (since I work another job 3 days a week) and wasn't too far from home. I ended up doing my commercial licence and my multi-engine IFR with [PanAir Flight Training](https://www.panairflighttraining.com/) in Bathurst who have a transparent per-hour cost on their website and a great team to work with. The Head of Operations, Tammy Camileri, has a lot of experience flying for the [PanAir charter company](https://www.panair.com.au/) together with her partner, Charlie (and they also [race jets on the side](https://www.flylikeagirl.com.au/)).
 
 But there are many schools out there, some excellent, and some not so great, so it's worth your initial time investment to choose well. For what it's worth, I've also had an excellent experience with Luke Patterson, formerly of WardAir at Bathurst, with whom I did my initial PPL training, as well as with the much larger [FlyOz](https://flyoz.com.au/) school at Cowra, through whom I've done various flight examinations.
 
@@ -57,7 +57,7 @@ There's **so much more that's possible and beneficial to practise on a simulator
 
 ## Tip 4: Enjoy Learning and Stay Ahead of the Theory
 
-When I started my initial training towards my private pilot license, I knew that it would take me around a year to do the required flight training next to my job, if there were no life emergencies thrown in the mix. My instructor at the time, Luke Patterson, let me know that to satisfy the PPL theory, **you can *either* do a single PPL exam covering all seven topics, or alternately you can sit the seven separate commercial pilot exams**, which go into a little more detail but can be completed over a period of up to two years. Since I had already decided to do the non-integrated pathway, this seemed like a no-brainer at the time.
+When I started my initial training towards my private pilot licence, I knew that it would take me around a year to do the required flight training next to my job, if there were no life emergencies thrown in the mix. My instructor at the time, Luke Patterson, let me know that to satisfy the PPL theory, **you can *either* do a single PPL exam covering all seven topics, or alternately you can sit the seven separate commercial pilot exams**, which go into a little more detail but can be completed over a period of up to two years. Since I had already decided to do the non-integrated pathway, this seemed like a no-brainer at the time.
 
 In retrospect, this was one of the best tips I received, since I could **enjoy learning for each subject in my own time**, one at a time, rather than cramming for one big exam. On top of that, when I completed my PPL flight training, I'd already completed my CPL exams, so **I could just focus on my CPL flight training**. This will differ on individual goals and time-frames of course, but for me it was an excellent tip.
 
@@ -70,11 +70,11 @@ This approach helps to keep important concepts fresh in your memory throughout y
 
 ## Tip 5: Make your training sustainable
 
-I know I've already said this throughout the above, but it is important enough to have its own tip: a pilot license is a **huge investment** that will affect not just you but also your network of support. **It is a long-term investment which needs to be sustainable to be successful**, not just financially, but also in terms of the **time required by you and the cost that has on your relationships**. Clearly it's much better to work out a way to achieve your goals in a way that is sustainable longer-term and allows you to support others achieving their own goals too (rather than costing you your relationships).
+I know I've already said this throughout the above, but it is important enough to have its own tip: a pilot licence is a **huge investment** that will affect not just you but also your network of support. **It is a long-term investment which needs to be sustainable to be successful**, not just financially, but also in terms of the **time required by you and the cost that has on your relationships**. Clearly it's much better to work out a way to achieve your goals in a way that is sustainable longer-term and allows you to support others achieving their own goals too (rather than costing you your relationships).
 
 Unless you are lucky enough to have someone paying your way for you, you will likely **need to work beside your training as well as during breaks from your training to build up funds to continue**. There are multiple strategies that could be worthwhile here:
-- a higher-paying job will make it easier in the long-term even if it requires more initial investment. **It may be worth following through on that apprenticeship or tafe course or uni degree**, not only to be able to fund your pilot training more easily, but also for those times when the pilot industry slumps (who knows where automation will take aviation)
-- **break up your pilot training into useful chunks** such as: RPL, PPL, CPL, MEIR, etc., where you can pause and re-evaluate your path after each achievement, enjoying the new privileges of the license while working some more in that other job to save up.
+- a higher-paying job will make it easier in the long-term even if it requires more initial investment. **It may be worth following through on that apprenticeship or TAFE course or uni degree**, not only to be able to fund your pilot training more easily, but also for those times when the pilot industry slumps (who knows where automation will take aviation)
+- **break up your pilot training into useful chunks** such as: RPL, PPL, CPL, MEIR, etc., where you can pause and re-evaluate your path after each achievement, enjoying the new privileges of the licence while working some more in that other job to save up.
 
 
 ## Summary
