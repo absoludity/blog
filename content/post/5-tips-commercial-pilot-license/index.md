@@ -61,6 +61,8 @@ When I started my initial training towards my private pilot licence, I knew that
 
 In retrospect, this was one of the best tips I received, since I could **enjoy learning for each subject in my own time**, one at a time, rather than cramming for one big exam. On top of that, when I completed my PPL flight training, I'd already completed my CPL exams, so **I could just focus on my CPL flight training**. This will differ on individual goals and time-frames of course, but for me it was an excellent tip.
 
+**EDIT**: On this note, a pilot friend of mine who read this says that completing all exams (IFR, ATPL, Basic Gas Turbine principles) before they're needed **will make career progression much easier later on** when it's tricky to get time off. In his words "just keep going until there are no exams left".
+
 Lastly, there is a huge amount of content to consume and learn throughout pilot training. The last thing you want to do is cram to pass tests and then let your theory decay over time. I use the excellent [Anki flashcards](https://apps.ankiweb.net/) spaced repetition system, which
 
 > helps you spend more time on challenging material, and less on what you already know.
