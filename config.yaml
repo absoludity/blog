@@ -132,10 +132,7 @@ params:
       gravatar: false
       shape: circle
     comment:
-      provider: "disqus"
-      disqus:
-        shortname: "liveandletlearn"
-        show_count: true
+      provider: ""
     search:
       provider: wowchemy
 
