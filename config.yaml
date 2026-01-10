@@ -141,7 +141,7 @@ params:
 
   # Comments
   comments:
-    engine: 1
+    engine: 0
     commentable:
       post: true # Enable comments on blog posts
       page: true # Disable comments on static pages (like About)
