@@ -160,6 +160,10 @@ address:
   country_code: AU
 
 contact_links:
+  - icon: envelope
+    icon_pack: fas
+    name: Email
+    link: "mailto:absoludity+lll@gmail.com"
   - icon: mastodon
     icon_pack: fab
     name: Follow on Mastodon
