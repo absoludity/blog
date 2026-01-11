@@ -132,7 +132,15 @@ params:
       gravatar: false
       shape: circle
     comment:
-      provider: ""
+      provider: "giscus"
+      giscus:
+        repo: "absoludity/blog"
+        repo_id: "MDEwOlJlcG9zaXRvcnk4OTg0NzM1MQ=="
+        category: "Announcements"
+        category_id: "DIC_kwDOBVr2N84C0z3s"
+        mapping: "pathname"
+        theme: "preferred_color_scheme"
+        language_code: "en"
     search:
       provider: wowchemy
 
