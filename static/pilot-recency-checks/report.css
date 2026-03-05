@@ -1,0 +1,304 @@
+/* Pilot Logbook Report */
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+  color: #1a1a1a;
+  background: #f5f5f5;
+  margin: 0;
+  padding: 2rem;
+}
+
+header {
+  max-width: 860px;
+  margin: 0 auto 2rem;
+}
+
+header h1 {
+  font-size: 1.75rem;
+  margin: 0 0 0.25rem;
+}
+
+.generated {
+  color: #666;
+  margin: 0;
+  font-size: 0.875rem;
+}
+
+/* Pilot section */
+.pilot {
+  max-width: 860px;
+  margin: 0 auto 2.5rem;
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 1.5rem 2rem;
+}
+
+.pilot h2 {
+  font-size: 1.4rem;
+  margin: 0 0 1.5rem;
+  border-bottom: 2px solid #e0e0e0;
+  padding-bottom: 0.5rem;
+}
+
+.licence {
+  font-size: 0.9rem;
+  font-weight: normal;
+  color: #555;
+  margin-left: 0.5rem;
+}
+
+/* Sub-sections */
+.hours,
+.currency {
+  margin-bottom: 1.5rem;
+}
+
+.hours h3,
+.currency h3 {
+  font-size: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: #444;
+  margin: 0 0 0.75rem;
+}
+
+.as-of {
+  font-size: 0.85rem;
+  font-weight: normal;
+  color: #666;
+  margin-left: 0.5rem;
+  text-transform: none;
+  letter-spacing: 0;
+}
+
+.summary {
+  font-weight: 600;
+  margin: 0 0 0.75rem;
+}
+
+.currency h4 {
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: #666;
+  margin: 1rem 0 0.4rem;
+  font-weight: 600;
+  display: flex;
+  align-items: baseline;
+  gap: 0.5rem;
+}
+
+.group-count {
+  font-size: 0.8rem;
+  font-weight: normal;
+  color: #888;
+  text-transform: none;
+  letter-spacing: 0;
+}
+
+.currency h4:first-of-type {
+  margin-top: 0;
+}
+
+/* Tables */
+table {
+  border-collapse: collapse;
+  width: 100%;
+  max-width: 480px;
+  margin-bottom: 0.5rem;
+}
+
+th {
+  text-align: left;
+  font-weight: normal;
+  color: #444;
+  padding: 0.2rem 0.5rem 0.2rem 0;
+  width: 60%;
+}
+
+td {
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+  padding: 0.2rem 0;
+  width: 40%;
+}
+
+tr.sub th {
+  padding-left: 1.5rem;
+  color: #666;
+  font-size: 0.9rem;
+}
+
+/* Details / Summary */
+details {
+  border: 1px solid #e0e0e0;
+  border-radius: 5px;
+  margin-bottom: 0.4rem;
+  overflow: hidden;
+}
+
+details > summary {
+  cursor: pointer;
+  padding: 0.5rem 0.75rem;
+  background: #fafafa;
+  user-select: none;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+details > summary::-webkit-details-marker {
+  display: none;
+}
+
+details > summary::before {
+  content: "▶";
+  font-size: 0.7rem;
+  color: #888;
+  transition: transform 0.15s;
+  flex-shrink: 0;
+}
+
+details[open] > summary::before {
+  transform: rotate(90deg);
+}
+
+/* Hours details */
+.hours details > summary {
+  font-size: 0.9rem;
+  color: #444;
+}
+
+.hours details > table,
+.hours details > div {
+  padding: 0.5rem 0.75rem 0.75rem;
+}
+
+/* Currency status details */
+details.status > summary {
+  gap: 0.6rem;
+}
+
+details.status > summary::before {
+  order: -1;
+}
+
+.badge {
+  font-size: 1rem;
+  font-weight: bold;
+  width: 1.25rem;
+  text-align: center;
+  flex-shrink: 0;
+}
+
+.reg {
+  font-size: 0.8rem;
+  color: #666;
+  font-family: monospace;
+  flex-shrink: 0;
+  min-width: 6rem;
+}
+
+.name {
+  flex: 1;
+  font-weight: 500;
+}
+
+.expiry {
+  font-size: 0.8rem;
+  color: #666;
+  flex-shrink: 0;
+}
+
+details.current {
+  border-color: #b7ddb0;
+}
+
+details.current > summary {
+  background: #f0faf0;
+}
+
+details.current .badge {
+  color: #2a7a2a;
+}
+
+details.expiring-soon {
+  border-color: #d4a84b;
+}
+
+details.expiring-soon > summary {
+  background-color: #fffbf0;
+  background-image: repeating-linear-gradient(
+    45deg,
+    transparent,
+    transparent 7px,
+    rgba(180, 120, 0, 0.07) 7px,
+    rgba(180, 120, 0, 0.07) 9px
+  );
+}
+
+details.expiring-soon .badge {
+  color: #8a5c00;
+  font-weight: 900;
+}
+
+details.expired {
+  border-color: #e8b4b4;
+}
+
+details.expired > summary {
+  background-color: #fdf0f0;
+  background-image: radial-gradient(
+    circle, rgba(176, 32, 32, 0.12) 1px, transparent 1px
+  );
+  background-size: 8px 8px;
+}
+
+details.expired .badge {
+  color: #b02020;
+}
+
+/* Detail content */
+.detail {
+  padding: 0.75rem 1rem 0.75rem 2.5rem;
+  border-top: 1px solid #eee;
+}
+
+.detail p {
+  margin: 0 0 0.4rem;
+}
+
+.detail .requirement {
+  color: #333;
+  font-size: 0.9rem;
+}
+
+.detail .description {
+  color: #555;
+  font-size: 0.9rem;
+}
+
+.detail .none {
+  color: #888;
+  font-style: italic;
+  font-size: 0.875rem;
+}
+
+.detail ul {
+  margin: 0.25rem 0 0;
+  padding-left: 1.25rem;
+  font-size: 0.875rem;
+  color: #333;
+}
+
+.detail ul li {
+  margin-bottom: 0.2rem;
+}
