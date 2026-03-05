@@ -302,3 +302,37 @@ details.expired .badge {
 .detail ul li {
   margin-bottom: 0.2rem;
 }
+
+@media (max-width: 560px) {
+  body {
+    padding: 1rem;
+  }
+
+  .pilot {
+    padding: 1rem;
+  }
+
+  details.status > summary {
+    flex-wrap: wrap;
+  }
+
+  /* Zero-height flex line break: sits at order 1, between .name (order 0)
+     and .reg/.expiry (order 2), forcing them onto their own line. */
+  details.status > summary::after {
+    content: '';
+    flex: 0 0 100%;
+    height: 0;
+    order: 1;
+  }
+
+  .reg {
+    order: 2;
+    min-width: 0;
+    font-size: 0.75rem;
+  }
+
+  .expiry {
+    order: 2;
+    margin-left: auto;
+  }
+}
