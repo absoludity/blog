@@ -1,0 +1,10 @@
+// Custom site styles, imported by the HugoBlox theme via `@import "custom"`
+// in its main.scss.
+
+// Post preview/hero banners use `object-fit: cover` with a fixed height, which
+// by default centres the crop and clips equally from the top and bottom. Anchor
+// the crop to the top instead, so the top of the image is always kept and any
+// excess is cropped from the bottom when the aspect ratio doesn't fit.
+.article-banner {
+  object-position: top;
+}
