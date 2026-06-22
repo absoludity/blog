@@ -1,0 +1,69 @@
+extends: substitution
+message: "Use the British spelling '%s' instead of '%s'."
+link: https://en.wikipedia.org/wiki/American_and_British_English_spelling_differences
+level: error
+ignorecase: true
+action:
+  name: replace
+# American -> British. Keys are regexes (word boundaries applied); values are
+# the preferred British spelling. Extend as needed. Note: some words flagged
+# here are valid in other senses (e.g. "license" is correct as a verb) — silence
+# those locally with `<!-- vale Blog.BritishSpelling = NO -->`.
+swap:
+  # -or -> -our
+  behavior: behaviour
+  behaviors: behaviours
+  color: colour
+  colored: coloured
+  coloring: colouring
+  colors: colours
+  favor: favour
+  favorable: favourable
+  favorite: favourite
+  favorites: favourites
+  flavor: flavour
+  flavors: flavours
+  honor: honour
+  honored: honoured
+  humor: humour
+  labor: labour
+  neighbor: neighbour
+  neighbors: neighbours
+  rumor: rumour
+  # -er -> -re
+  center: centre
+  centered: centred
+  centers: centres
+  fiber: fibre
+  liter: litre
+  liters: litres
+  meter: metre
+  theater: theatre
+  # -ize -> -ise
+  analyze: analyse
+  analyzed: analysed
+  apologize: apologise
+  emphasize: emphasise
+  organization: organisation
+  organizations: organisations
+  organize: organise
+  organized: organised
+  realize: realise
+  realized: realised
+  recognize: recognise
+  recognized: recognised
+  # -log -> -logue
+  catalog: catalogue
+  dialog: dialogue
+  # doubled consonant
+  canceled: cancelled
+  modeling: modelling
+  traveled: travelled
+  traveling: travelling
+  # misc
+  aluminum: aluminium
+  defense: defence
+  gray: grey
+  license: licence
+  offense: offence
+  practiced: practised
